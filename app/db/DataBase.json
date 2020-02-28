@@ -1,0 +1,4248 @@
+[
+    {
+        "abilities": [
+            "Overgrow",
+            "Chlorophyll"
+        ],
+        "evolution": [
+            "Bulbasaur",
+            "Ivysaur",
+            "Venusaur"
+        ],
+        "height": "2′4″ (0.71m)",
+        "id": "001",
+        "name": "Bulbasaur",
+        "species": "Seed Pokémon",
+        "stats": {
+            "attack": 49,
+            "defense": 49,
+            "hp": 45,
+            "sp.atk": 65,
+            "sp.def": 65,
+            "speed": 45,
+            "total": 318
+        },
+        "type": [
+            "Grass",
+            "Poison"
+        ],
+        "weight": "15.2 lbs (6.9 kg)"
+    },
+    {
+        "abilities": [
+            "Overgrow",
+            "Chlorophyll"
+        ],
+        "evolution": [
+            "Bulbasaur",
+            "Ivysaur",
+            "Venusaur"
+        ],
+        "height": "3′3″ (0.99m)",
+        "id": "002",
+        "name": "Ivysaur",
+        "species": "Seed Pokémon",
+        "stats": {
+            "attack": 62,
+            "defense": 63,
+            "hp": 60,
+            "sp.atk": 80,
+            "sp.def": 80,
+            "speed": 60,
+            "total": 405
+        },
+        "type": [
+            "Grass",
+            "Poison"
+        ],
+        "weight": "28.7 lbs (13.0 kg)"
+    },
+    {
+        "abilities": [
+            "Overgrow",
+            "Chlorophyll"
+        ],
+        "evolution": [
+            "Bulbasaur",
+            "Ivysaur",
+            "Venusaur"
+        ],
+        "height": "6′7″ (2.01m)",
+        "id": "003",
+        "name": "Venusaur",
+        "species": "Seed Pokémon",
+        "stats": {
+            "attack": 82,
+            "defense": 83,
+            "hp": 80,
+            "sp.atk": 100,
+            "sp.def": 100,
+            "speed": 80,
+            "total": 525
+        },
+        "type": [
+            "Grass",
+            "Poison"
+        ],
+        "weight": "220.5 lbs (100.0 kg)"
+    },
+    {
+        "abilities": [
+            "Blaze",
+            "Solar Power"
+        ],
+        "evolution": [
+            "Charmander",
+            "Charmeleon",
+            "Charizard"
+        ],
+        "height": "2′0″ (0.61m)",
+        "id": "004",
+        "name": "Charmander",
+        "species": "Lizard Pokémon",
+        "stats": {
+            "attack": 52,
+            "defense": 43,
+            "hp": 39,
+            "sp.atk": 60,
+            "sp.def": 50,
+            "speed": 65,
+            "total": 309
+        },
+        "type": [
+            "Fire"
+        ],
+        "weight": "18.7 lbs (8.5 kg)"
+    },
+    {
+        "abilities": [
+            "Blaze",
+            "Solar Power"
+        ],
+        "evolution": [
+            "Charmander",
+            "Charmeleon",
+            "Charizard"
+        ],
+        "height": "3′7″ (1.09m)",
+        "id": "005",
+        "name": "Charmeleon",
+        "species": "Flame Pokémon",
+        "stats": {
+            "attack": 64,
+            "defense": 58,
+            "hp": 58,
+            "sp.atk": 80,
+            "sp.def": 65,
+            "speed": 80,
+            "total": 405
+        },
+        "type": [
+            "Fire"
+        ],
+        "weight": "41.9 lbs (19.0 kg)"
+    },
+    {
+        "abilities": [
+            "Blaze",
+            "Solar Power"
+        ],
+        "evolution": [
+            "Charmander",
+            "Charmeleon",
+            "Charizard"
+        ],
+        "height": "5′7″ (1.70m)",
+        "id": "006",
+        "name": "Charizard",
+        "species": "Flame Pokémon",
+        "stats": {
+            "attack": 84,
+            "defense": 78,
+            "hp": 78,
+            "sp.atk": 109,
+            "sp.def": 85,
+            "speed": 100,
+            "total": 534
+        },
+        "type": [
+            "Fire",
+            "Flying"
+        ],
+        "weight": "199.5 lbs (90.5 kg)"
+    },
+    {
+        "abilities": [
+            "Torrent",
+            "Rain Dish"
+        ],
+        "evolution": [
+            "Squirtle",
+            "Wartortle",
+            "Blastoise"
+        ],
+        "height": "1′8″ (0.51m)",
+        "id": "007",
+        "name": "Squirtle",
+        "species": "Tiny Turtle Pokémon",
+        "stats": {
+            "attack": 48,
+            "defense": 65,
+            "hp": 44,
+            "sp.atk": 50,
+            "sp.def": 64,
+            "speed": 43,
+            "total": 314
+        },
+        "type": [
+            "Water"
+        ],
+        "weight": "19.8 lbs (9.0 kg)"
+    },
+    {
+        "abilities": [
+            "Torrent",
+            "Rain Dish"
+        ],
+        "evolution": [
+            "Squirtle",
+            "Wartortle",
+            "Blastoise"
+        ],
+        "height": "3′3″ (0.99m)",
+        "id": "008",
+        "name": "Wartortle",
+        "species": "Turtle Pokémon",
+        "stats": {
+            "attack": 63,
+            "defense": 80,
+            "hp": 59,
+            "sp.atk": 65,
+            "sp.def": 80,
+            "speed": 58,
+            "total": 405
+        },
+        "type": [
+            "Water"
+        ],
+        "weight": "49.6 lbs (22.5 kg)"
+    },
+    {
+        "abilities": [
+            "Torrent",
+            "Rain Dish"
+        ],
+        "evolution": [
+            "Squirtle",
+            "Wartortle",
+            "Blastoise"
+        ],
+        "height": "5′3″ (1.60m)",
+        "id": "009",
+        "name": "Blastoise",
+        "species": "Shellfish Pokémon",
+        "stats": {
+            "attack": 83,
+            "defense": 100,
+            "hp": 79,
+            "sp.atk": 85,
+            "sp.def": 105,
+            "speed": 78,
+            "total": 530
+        },
+        "type": [
+            "Water"
+        ],
+        "weight": "188.5 lbs (85.5 kg)"
+    },
+    {
+        "abilities": [
+            "Shield Dust",
+            "Run Away"
+        ],
+        "evolution": [
+            "Caterpie",
+            "Metapod",
+            "Butterfree"
+        ],
+        "height": "1′0″ (0.30m)",
+        "id": "010",
+        "name": "Caterpie",
+        "species": "Worm Pokémon",
+        "stats": {
+            "attack": 30,
+            "defense": 35,
+            "hp": 45,
+            "sp.atk": 20,
+            "sp.def": 20,
+            "speed": 45,
+            "total": 195
+        },
+        "type": [
+            "Bug"
+        ],
+        "weight": "6.4 lbs (2.9 kg)"
+    },
+    {
+        "abilities": [
+            "Shed Skin"
+        ],
+        "evolution": [
+            "Caterpie",
+            "Metapod",
+            "Butterfree"
+        ],
+        "height": "2′4″ (0.71m)",
+        "id": "011",
+        "name": "Metapod",
+        "species": "Cocoon Pokémon",
+        "stats": {
+            "attack": 20,
+            "defense": 55,
+            "hp": 50,
+            "sp.atk": 25,
+            "sp.def": 25,
+            "speed": 30,
+            "total": 205
+        },
+        "type": [
+            "Bug"
+        ],
+        "weight": "21.8 lbs (9.9 kg)"
+    },
+    {
+        "abilities": [
+            "Compound Eyes",
+            "Tinted Lens"
+        ],
+        "evolution": [
+            "Caterpie",
+            "Metapod",
+            "Butterfree"
+        ],
+        "height": "3′7″ (1.09m)",
+        "id": "012",
+        "name": "Butterfree",
+        "species": "Butterfly Pokémon",
+        "stats": {
+            "attack": 45,
+            "defense": 50,
+            "hp": 60,
+            "sp.atk": 90,
+            "sp.def": 80,
+            "speed": 70,
+            "total": 395
+        },
+        "type": [
+            "Bug",
+            "Flying"
+        ],
+        "weight": "70.5 lbs (32.0 kg)"
+    },
+    {
+        "abilities": [
+            "Shield Dust",
+            "Run Away"
+        ],
+        "evolution": [
+            "Weedle",
+            "Kakuna",
+            "Beedrill"
+        ],
+        "height": "1′0″ (0.30m)",
+        "id": "013",
+        "name": "Weedle",
+        "species": "Hairy Bug Pokémon",
+        "stats": {
+            "attack": 35,
+            "defense": 30,
+            "hp": 40,
+            "sp.atk": 20,
+            "sp.def": 20,
+            "speed": 50,
+            "total": 195
+        },
+        "type": [
+            "Bug",
+            "Poison"
+        ],
+        "weight": "7.1 lbs (3.2 kg)"
+    },
+    {
+        "abilities": [
+            "Shed Skin"
+        ],
+        "evolution": [
+            "Weedle",
+            "Kakuna",
+            "Beedrill"
+        ],
+        "height": "2′0″ (0.61m)",
+        "id": "014",
+        "name": "Kakuna",
+        "species": "Cocoon Pokémon",
+        "stats": {
+            "attack": 25,
+            "defense": 50,
+            "hp": 45,
+            "sp.atk": 25,
+            "sp.def": 25,
+            "speed": 35,
+            "total": 205
+        },
+        "type": [
+            "Bug",
+            "Poison"
+        ],
+        "weight": "22 lbs (10.0 kg)"
+    },
+    {
+        "abilities": [
+            "Swarm",
+            "Sniper"
+        ],
+        "evolution": [
+            "Weedle",
+            "Kakuna",
+            "Beedrill"
+        ],
+        "height": "3′3″ (0.99m)",
+        "id": "015",
+        "name": "Beedrill",
+        "species": "Poison Bee Pokémon",
+        "stats": {
+            "attack": 90,
+            "defense": 40,
+            "hp": 65,
+            "sp.atk": 45,
+            "sp.def": 80,
+            "speed": 75,
+            "total": 395
+        },
+        "type": [
+            "Bug",
+            "Poison"
+        ],
+        "weight": "65 lbs (29.5 kg)"
+    },
+    {
+        "abilities": [
+            "Keen Eye",
+            "Tangled Feet",
+            "Big Pecks"
+        ],
+        "evolution": [
+            "Pidgey",
+            "Pidgeotto",
+            "Pidgeot"
+        ],
+        "height": "1′0″ (0.30m)",
+        "id": "016",
+        "name": "Pidgey",
+        "species": "Tiny Bird Pokémon",
+        "stats": {
+            "attack": 45,
+            "defense": 40,
+            "hp": 40,
+            "sp.atk": 35,
+            "sp.def": 35,
+            "speed": 56,
+            "total": 251
+        },
+        "type": [
+            "Normal",
+            "Flying"
+        ],
+        "weight": "4 lbs (1.8 kg)"
+    },
+    {
+        "abilities": [
+            "Keen Eye",
+            "Tangled Feet",
+            "Big Pecks"
+        ],
+        "evolution": [
+            "Pidgey",
+            "Pidgeotto",
+            "Pidgeot"
+        ],
+        "height": "3′7″ (1.09m)",
+        "id": "017",
+        "name": "Pidgeotto",
+        "species": "Bird Pokémon",
+        "stats": {
+            "attack": 60,
+            "defense": 55,
+            "hp": 63,
+            "sp.atk": 50,
+            "sp.def": 50,
+            "speed": 71,
+            "total": 349
+        },
+        "type": [
+            "Normal",
+            "Flying"
+        ],
+        "weight": "66.1 lbs (30.0 kg)"
+    },
+    {
+        "abilities": [
+            "Keen Eye",
+            "Tangled Feet",
+            "Big Pecks"
+        ],
+        "evolution": [
+            "Pidgey",
+            "Pidgeotto",
+            "Pidgeot"
+        ],
+        "height": "4′11″ (1.50m)",
+        "id": "018",
+        "name": "Pidgeot",
+        "species": "Bird Pokémon",
+        "stats": {
+            "attack": 80,
+            "defense": 75,
+            "hp": 83,
+            "sp.atk": 70,
+            "sp.def": 70,
+            "speed": 101,
+            "total": 479
+        },
+        "type": [
+            "Normal",
+            "Flying"
+        ],
+        "weight": "87.1 lbs (39.5 kg)"
+    },
+    {
+        "abilities": [
+            "Guts",
+            "Run Away",
+            "Hustle"
+        ],
+        "evolution": [
+            "Rattata",
+            "Raticate"
+        ],
+        "height": "1′0″ (0.30m)",
+        "id": "019",
+        "name": "Rattata",
+        "species": "Mouse Pokémon",
+        "stats": {
+            "attack": 56,
+            "defense": 35,
+            "hp": 30,
+            "sp.atk": 25,
+            "sp.def": 35,
+            "speed": 72,
+            "total": 253
+        },
+        "type": [
+            "Normal"
+        ],
+        "weight": "7.7 lbs (3.5 kg)"
+    },
+    {
+        "abilities": [
+            "Guts",
+            "Run Away",
+            "Hustle"
+        ],
+        "evolution": [
+            "Rattata",
+            "Raticate"
+        ],
+        "height": "2′4″ (0.71m)",
+        "id": "020",
+        "name": "Raticate",
+        "species": "Mouse Pokémon",
+        "stats": {
+            "attack": 81,
+            "defense": 60,
+            "hp": 55,
+            "sp.atk": 50,
+            "sp.def": 70,
+            "speed": 97,
+            "total": 413
+        },
+        "type": [
+            "Normal"
+        ],
+        "weight": "40.8 lbs (18.5 kg)"
+    },
+    {
+        "abilities": [
+            "Keen Eye",
+            "Sniper"
+        ],
+        "evolution": [
+            "Spearow",
+            "Fearow"
+        ],
+        "height": "1′0″ (0.30m)",
+        "id": "021",
+        "name": "Spearow",
+        "species": "Tiny Bird Pokémon",
+        "stats": {
+            "attack": 60,
+            "defense": 30,
+            "hp": 40,
+            "sp.atk": 31,
+            "sp.def": 31,
+            "speed": 70,
+            "total": 262
+        },
+        "type": [
+            "Normal",
+            "Flying"
+        ],
+        "weight": "4.4 lbs (2.0 kg)"
+    },
+    {
+        "abilities": [
+            "Keen Eye",
+            "Sniper"
+        ],
+        "evolution": [
+            "Spearow",
+            "Fearow"
+        ],
+        "height": "3′11″ (1.19m)",
+        "id": "022",
+        "name": "Fearow",
+        "species": "Beak Pokémon",
+        "stats": {
+            "attack": 90,
+            "defense": 65,
+            "hp": 65,
+            "sp.atk": 61,
+            "sp.def": 61,
+            "speed": 100,
+            "total": 442
+        },
+        "type": [
+            "Normal",
+            "Flying"
+        ],
+        "weight": "83.8 lbs (38.0 kg)"
+    },
+    {
+        "abilities": [
+            "Intimidate",
+            "Shed Skin",
+            "Unnerve"
+        ],
+        "evolution": [
+            "Ekans",
+            "Arbok"
+        ],
+        "height": "6′7″ (2.01m)",
+        "id": "023",
+        "name": "Ekans",
+        "species": "Snake Pokémon",
+        "stats": {
+            "attack": 60,
+            "defense": 44,
+            "hp": 35,
+            "sp.atk": 40,
+            "sp.def": 54,
+            "speed": 55,
+            "total": 288
+        },
+        "type": [
+            "Poison"
+        ],
+        "weight": "15.2 lbs (6.9 kg)"
+    },
+    {
+        "abilities": [
+            "Intimidate",
+            "Shed Skin",
+            "Unnerve"
+        ],
+        "evolution": [
+            "Ekans",
+            "Arbok"
+        ],
+        "height": "11′6″ (3.51m)",
+        "id": "024",
+        "name": "Arbok",
+        "species": "Cobra Pokémon",
+        "stats": {
+            "attack": 85,
+            "defense": 69,
+            "hp": 60,
+            "sp.atk": 65,
+            "sp.def": 79,
+            "speed": 80,
+            "total": 438
+        },
+        "type": [
+            "Poison"
+        ],
+        "weight": "143.3 lbs (65.0 kg)"
+    },
+    {
+        "abilities": [
+            "Static",
+            "Lightning Rod"
+        ],
+        "evolution": [
+            "Pikachu",
+            "Raichu"
+        ],
+        "height": "1′4″ (0.41m)",
+        "id": "025",
+        "name": "Pikachu",
+        "species": "Mouse Pokémon",
+        "stats": {
+            "attack": 55,
+            "defense": 40,
+            "hp": 35,
+            "sp.atk": 50,
+            "sp.def": 50,
+            "speed": 90,
+            "total": 320
+        },
+        "type": [
+            "Electric"
+        ],
+        "weight": "13.2 lbs (6.0 kg)"
+    },
+    {
+        "abilities": [
+            "Static",
+            "Lightning Rod"
+        ],
+        "evolution": [
+            "Pikachu",
+            "Raichu"
+        ],
+        "height": "2′7″ (0.79m)",
+        "id": "026",
+        "name": "Raichu",
+        "species": "Mouse Pokémon",
+        "stats": {
+            "attack": 90,
+            "defense": 55,
+            "hp": 60,
+            "sp.atk": 90,
+            "sp.def": 80,
+            "speed": 110,
+            "total": 485
+        },
+        "type": [
+            "Electric"
+        ],
+        "weight": "66.1 lbs (30.0 kg)"
+    },
+    {
+        "abilities": [
+            "Sand Veil",
+            "Sand Rush"
+        ],
+        "evolution": [
+            "Sandshrew",
+            "Sandslash"
+        ],
+        "height": "2′0″ (0.61m)",
+        "id": "027",
+        "name": "Sandshrew",
+        "species": "Mouse Pokémon",
+        "stats": {
+            "attack": 75,
+            "defense": 85,
+            "hp": 50,
+            "sp.atk": 20,
+            "sp.def": 30,
+            "speed": 40,
+            "total": 300
+        },
+        "type": [
+            "Ground"
+        ],
+        "weight": "26.5 lbs (12.0 kg)"
+    },
+    {
+        "abilities": [
+            "Sand Veil",
+            "Sand Rush"
+        ],
+        "evolution": [
+            "Sandshrew",
+            "Sandslash"
+        ],
+        "height": "3′3″ (0.99m)",
+        "id": "028",
+        "name": "Sandslash",
+        "species": "Mouse Pokémon",
+        "stats": {
+            "attack": 100,
+            "defense": 110,
+            "hp": 75,
+            "sp.atk": 45,
+            "sp.def": 55,
+            "speed": 65,
+            "total": 450
+        },
+        "type": [
+            "Ground"
+        ],
+        "weight": "65 lbs (29.5 kg)"
+    },
+    {
+        "abilities": [
+            "Poison Point",
+            "Rivalry",
+            "Hustle"
+        ],
+        "evolution": [
+            "Nidoran♀",
+            "Nidorina",
+            "Nidoqueen"
+        ],
+        "height": "1′4″ (0.41m)",
+        "id": "029",
+        "name": "Nidoran♀",
+        "species": "Poison Pin Pokémon",
+        "stats": {
+            "attack": 47,
+            "defense": 52,
+            "hp": 55,
+            "sp.atk": 40,
+            "sp.def": 40,
+            "speed": 41,
+            "total": 275
+        },
+        "type": [
+            "Poison"
+        ],
+        "weight": "15.4 lbs (7.0 kg)"
+    },
+    {
+        "abilities": [
+            "Poison Point",
+            "Rivalry",
+            "Hustle"
+        ],
+        "evolution": [
+            "Nidoran♀",
+            "Nidorina",
+            "Nidoqueen"
+        ],
+        "height": "2′7″ (0.79m)",
+        "id": "030",
+        "name": "Nidorina",
+        "species": "Poison Pin Pokémon",
+        "stats": {
+            "attack": 62,
+            "defense": 67,
+            "hp": 70,
+            "sp.atk": 55,
+            "sp.def": 55,
+            "speed": 56,
+            "total": 365
+        },
+        "type": [
+            "Poison"
+        ],
+        "weight": "44.1 lbs (20.0 kg)"
+    },
+    {
+        "abilities": [
+            "Poison Point",
+            "Rivalry",
+            "Sheer Force"
+        ],
+        "evolution": [
+            "Nidoran♀",
+            "Nidorina",
+            "Nidoqueen"
+        ],
+        "height": "4′3″ (1.30m)",
+        "id": "031",
+        "name": "Nidoqueen",
+        "species": "Drill Pokémon",
+        "stats": {
+            "attack": 92,
+            "defense": 87,
+            "hp": 90,
+            "sp.atk": 75,
+            "sp.def": 85,
+            "speed": 76,
+            "total": 505
+        },
+        "type": [
+            "Poison",
+            "Ground"
+        ],
+        "weight": "132.3 lbs (60.0 kg)"
+    },
+    {
+        "abilities": [
+            "Poison Point",
+            "Rivalry",
+            "Hustle"
+        ],
+        "evolution": [
+            "Nidoran♂",
+            "Nidorino",
+            "Nidoking"
+        ],
+        "height": "1′8″ (0.51m)",
+        "id": "032",
+        "name": "Nidoran♂",
+        "species": "Poison Pin Pokémon",
+        "stats": {
+            "attack": 57,
+            "defense": 40,
+            "hp": 46,
+            "sp.atk": 40,
+            "sp.def": 40,
+            "speed": 50,
+            "total": 273
+        },
+        "type": [
+            "Poison"
+        ],
+        "weight": "19.8 lbs (9.0 kg)"
+    },
+    {
+        "abilities": [
+            "Poison Point",
+            "Rivalry",
+            "Hustle"
+        ],
+        "evolution": [
+            "Nidoran♂",
+            "Nidorino",
+            "Nidoking"
+        ],
+        "height": "2′11″ (0.89m)",
+        "id": "033",
+        "name": "Nidorino",
+        "species": "Poison Pin Pokémon",
+        "stats": {
+            "attack": 72,
+            "defense": 57,
+            "hp": 61,
+            "sp.atk": 55,
+            "sp.def": 55,
+            "speed": 65,
+            "total": 365
+        },
+        "type": [
+            "Poison"
+        ],
+        "weight": "43 lbs (19.5 kg)"
+    },
+    {
+        "abilities": [
+            "Poison Point",
+            "Rivalry",
+            "Sheer Force"
+        ],
+        "evolution": [
+            "Nidoran♂",
+            "Nidorino",
+            "Nidoking"
+        ],
+        "height": "4′7″ (1.40m)",
+        "id": "034",
+        "name": "Nidoking",
+        "species": "Drill Pokémon",
+        "stats": {
+            "attack": 102,
+            "defense": 77,
+            "hp": 81,
+            "sp.atk": 85,
+            "sp.def": 75,
+            "speed": 85,
+            "total": 505
+        },
+        "type": [
+            "Poison",
+            "Ground"
+        ],
+        "weight": "136.7 lbs (62.0 kg)"
+    },
+    {
+        "abilities": [
+            "Cute Charm",
+            "Magic Guard",
+            "Friend Guard"
+        ],
+        "evolution": [
+            "Cleffa",
+            "Clefairy",
+            "Clefable"
+        ],
+        "height": "2′0″ (0.61m)",
+        "id": "035",
+        "name": "Clefairy",
+        "species": "Fairy Pokémon",
+        "stats": {
+            "attack": 45,
+            "defense": 48,
+            "hp": 70,
+            "sp.atk": 60,
+            "sp.def": 65,
+            "speed": 35,
+            "total": 323
+        },
+        "type": [
+            "Fairy"
+        ],
+        "weight": "16.5 lbs (7.5 kg)"
+    },
+    {
+        "abilities": [
+            "Cute Charm",
+            "Magic Guard",
+            "Unaware"
+        ],
+        "evolution": [
+            "Cleffa",
+            "Clefairy",
+            "Clefable"
+        ],
+        "height": "4′3″ (1.30m)",
+        "id": "036",
+        "name": "Clefable",
+        "species": "Fairy Pokémon",
+        "stats": {
+            "attack": 70,
+            "defense": 73,
+            "hp": 95,
+            "sp.atk": 95,
+            "sp.def": 90,
+            "speed": 60,
+            "total": 483
+        },
+        "type": [
+            "Fairy"
+        ],
+        "weight": "88.2 lbs (40.0 kg)"
+    },
+    {
+        "abilities": [
+            "Flash Fire",
+            "Drought"
+        ],
+        "evolution": [
+            "Vulpix",
+            "Ninetales"
+        ],
+        "height": "2′0″ (0.61m)",
+        "id": "037",
+        "name": "Vulpix",
+        "species": "Fox Pokémon",
+        "stats": {
+            "attack": 41,
+            "defense": 40,
+            "hp": 38,
+            "sp.atk": 50,
+            "sp.def": 65,
+            "speed": 65,
+            "total": 299
+        },
+        "type": [
+            "Fire"
+        ],
+        "weight": "21.8 lbs (9.9 kg)"
+    },
+    {
+        "abilities": [
+            "Flash Fire",
+            "Drought"
+        ],
+        "evolution": [
+            "Vulpix",
+            "Ninetales"
+        ],
+        "height": "3′7″ (1.09m)",
+        "id": "038",
+        "name": "Ninetales",
+        "species": "Fox Pokémon",
+        "stats": {
+            "attack": 76,
+            "defense": 75,
+            "hp": 73,
+            "sp.atk": 81,
+            "sp.def": 100,
+            "speed": 100,
+            "total": 505
+        },
+        "type": [
+            "Fire"
+        ],
+        "weight": "43.9 lbs (19.9 kg)"
+    },
+    {
+        "abilities": [
+            "Competitive",
+            "Cute Charm",
+            "Friend Guard"
+        ],
+        "evolution": [
+            "Jigglypuff",
+            "Wigglytuff"
+        ],
+        "height": "1′8″ (0.51m)",
+        "id": "039",
+        "name": "Jigglypuff",
+        "species": "Balloon Pokémon",
+        "stats": {
+            "attack": 45,
+            "defense": 20,
+            "hp": 115,
+            "sp.atk": 45,
+            "sp.def": 25,
+            "speed": 20,
+            "total": 270
+        },
+        "type": [
+            "Normal",
+            "Fairy"
+        ],
+        "weight": "12.1 lbs (5.5 kg)"
+    },
+    {
+        "abilities": [
+            "Competitive",
+            "Cute Charm",
+            "Frisk"
+        ],
+        "evolution": [
+            "Jigglypuff",
+            "Wigglytuff"
+        ],
+        "height": "3′3″ (0.99m)",
+        "id": "040",
+        "name": "Wigglytuff",
+        "species": "Balloon Pokémon",
+        "stats": {
+            "attack": 70,
+            "defense": 45,
+            "hp": 140,
+            "sp.atk": 85,
+            "sp.def": 50,
+            "speed": 45,
+            "total": 435
+        },
+        "type": [
+            "Normal",
+            "Fairy"
+        ],
+        "weight": "26.5 lbs (12.0 kg)"
+    },
+    {
+        "abilities": [
+            "Inner Focus",
+            "Infiltrator"
+        ],
+        "evolution": [
+            "Zubat",
+            "Golbat",
+            "Crobat"
+        ],
+        "height": "2′7″ (0.79m)",
+        "id": "041",
+        "name": "Zubat",
+        "species": "Bat Pokémon",
+        "stats": {
+            "attack": 45,
+            "defense": 35,
+            "hp": 40,
+            "sp.atk": 30,
+            "sp.def": 40,
+            "speed": 55,
+            "total": 245
+        },
+        "type": [
+            "Poison",
+            "Flying"
+        ],
+        "weight": "16.5 lbs (7.5 kg)"
+    },
+    {
+        "abilities": [
+            "Inner Focus",
+            "Infiltrator"
+        ],
+        "evolution": [
+            "Zubat",
+            "Golbat",
+            "Crobat"
+        ],
+        "height": "5′3″ (1.60m)",
+        "id": "042",
+        "name": "Golbat",
+        "species": "Bat Pokémon",
+        "stats": {
+            "attack": 80,
+            "defense": 70,
+            "hp": 75,
+            "sp.atk": 65,
+            "sp.def": 75,
+            "speed": 90,
+            "total": 455
+        },
+        "type": [
+            "Poison",
+            "Flying"
+        ],
+        "weight": "121.3 lbs (55.0 kg)"
+    },
+    {
+        "abilities": [
+            "Chlorophyll",
+            "Run Away"
+        ],
+        "evolution": [
+            "Oddish",
+            "Gloom",
+            "Vileplume"
+        ],
+        "height": "1′8″ (0.51m)",
+        "id": "043",
+        "name": "Oddish",
+        "species": "Weed Pokémon",
+        "stats": {
+            "attack": 50,
+            "defense": 55,
+            "hp": 45,
+            "sp.atk": 75,
+            "sp.def": 65,
+            "speed": 30,
+            "total": 320
+        },
+        "type": [
+            "Grass",
+            "Poison"
+        ],
+        "weight": "11.9 lbs (5.4 kg)"
+    },
+    {
+        "abilities": [
+            "Chlorophyll",
+            "Stench"
+        ],
+        "evolution": [
+            "Oddish",
+            "Gloom",
+            "Vileplume"
+        ],
+        "height": "2′7″ (0.79m)",
+        "id": "044",
+        "name": "Gloom",
+        "species": "Weed Pokémon",
+        "stats": {
+            "attack": 65,
+            "defense": 70,
+            "hp": 60,
+            "sp.atk": 85,
+            "sp.def": 75,
+            "speed": 40,
+            "total": 395
+        },
+        "type": [
+            "Grass",
+            "Poison"
+        ],
+        "weight": "19 lbs (8.6 kg)"
+    },
+    {
+        "abilities": [
+            "Chlorophyll",
+            "Effect Spore"
+        ],
+        "evolution": [
+            "Oddish",
+            "Gloom",
+            "Vileplume"
+        ],
+        "height": "3′11″ (1.19m)",
+        "id": "045",
+        "name": "Vileplume",
+        "species": "Flower Pokémon",
+        "stats": {
+            "attack": 80,
+            "defense": 85,
+            "hp": 75,
+            "sp.atk": 110,
+            "sp.def": 90,
+            "speed": 50,
+            "total": 490
+        },
+        "type": [
+            "Grass",
+            "Poison"
+        ],
+        "weight": "41 lbs (18.6 kg)"
+    },
+    {
+        "abilities": [
+            "Dry Skin",
+            "Effect Spore",
+            "Damp"
+        ],
+        "evolution": [
+            "Paras",
+            "Parasect"
+        ],
+        "height": "1′0″ (0.30m)",
+        "id": "046",
+        "name": "Paras",
+        "species": "Mushroom Pokémon",
+        "stats": {
+            "attack": 70,
+            "defense": 55,
+            "hp": 35,
+            "sp.atk": 45,
+            "sp.def": 55,
+            "speed": 25,
+            "total": 285
+        },
+        "type": [
+            "Bug",
+            "Grass"
+        ],
+        "weight": "11.9 lbs (5.4 kg)"
+    },
+    {
+        "abilities": [
+            "Dry Skin",
+            "Effect Spore",
+            "Damp"
+        ],
+        "evolution": [
+            "Paras",
+            "Parasect"
+        ],
+        "height": "3′3″ (0.99m)",
+        "id": "047",
+        "name": "Parasect",
+        "species": "Mushroom Pokémon",
+        "stats": {
+            "attack": 95,
+            "defense": 80,
+            "hp": 60,
+            "sp.atk": 60,
+            "sp.def": 80,
+            "speed": 30,
+            "total": 405
+        },
+        "type": [
+            "Bug",
+            "Grass"
+        ],
+        "weight": "65 lbs (29.5 kg)"
+    },
+    {
+        "abilities": [
+            "Compound Eyes",
+            "Tinted Lens",
+            "Run Away"
+        ],
+        "evolution": [
+            "Venonat",
+            "Venomoth"
+        ],
+        "height": "3′3″ (0.99m)",
+        "id": "048",
+        "name": "Venonat",
+        "species": "Insect Pokémon",
+        "stats": {
+            "attack": 55,
+            "defense": 50,
+            "hp": 60,
+            "sp.atk": 40,
+            "sp.def": 55,
+            "speed": 45,
+            "total": 305
+        },
+        "type": [
+            "Bug",
+            "Poison"
+        ],
+        "weight": "66.1 lbs (30.0 kg)"
+    },
+    {
+        "abilities": [
+            "Shield Dust",
+            "Tinted Lens",
+            "Wonder Skin"
+        ],
+        "evolution": [
+            "Venonat",
+            "Venomoth"
+        ],
+        "height": "4′11″ (1.50m)",
+        "id": "049",
+        "name": "Venomoth",
+        "species": "Poison Moth Pokémon",
+        "stats": {
+            "attack": 65,
+            "defense": 60,
+            "hp": 70,
+            "sp.atk": 90,
+            "sp.def": 75,
+            "speed": 90,
+            "total": 450
+        },
+        "type": [
+            "Bug",
+            "Poison"
+        ],
+        "weight": "27.6 lbs (12.5 kg)"
+    },
+    {
+        "abilities": [
+            "Arena Trap",
+            "Sand Veil",
+            "Sand Force"
+        ],
+        "evolution": [
+            "Diglett",
+            "Dugtrio"
+        ],
+        "height": "0′8″ (0.20m)",
+        "id": "050",
+        "name": "Diglett",
+        "species": "Mole Pokémon",
+        "stats": {
+            "attack": 55,
+            "defense": 25,
+            "hp": 10,
+            "sp.atk": 35,
+            "sp.def": 45,
+            "speed": 95,
+            "total": 265
+        },
+        "type": [
+            "Ground"
+        ],
+        "weight": "1.8 lbs (0.8 kg)"
+    },
+    {
+        "abilities": [
+            "Arena Trap",
+            "Sand Veil",
+            "Sand Force"
+        ],
+        "evolution": [
+            "Diglett",
+            "Dugtrio"
+        ],
+        "height": "2′4″ (0.71m)",
+        "id": "051",
+        "name": "Dugtrio",
+        "species": "Mole Pokémon",
+        "stats": {
+            "attack": 80,
+            "defense": 50,
+            "hp": 35,
+            "sp.atk": 50,
+            "sp.def": 70,
+            "speed": 120,
+            "total": 405
+        },
+        "type": [
+            "Ground"
+        ],
+        "weight": "73.4 lbs (33.3 kg)"
+    },
+    {
+        "abilities": [
+            "Pickup",
+            "Technician",
+            "Unnerve"
+        ],
+        "evolution": [
+            "Meowth",
+            "Persian"
+        ],
+        "height": "1′4″ (0.41m)",
+        "id": "052",
+        "name": "Meowth",
+        "species": "Scratch Cat Pokémon",
+        "stats": {
+            "attack": 45,
+            "defense": 35,
+            "hp": 40,
+            "sp.atk": 40,
+            "sp.def": 40,
+            "speed": 90,
+            "total": 290
+        },
+        "type": [
+            "Normal"
+        ],
+        "weight": "9.3 lbs (4.2 kg)"
+    },
+    {
+        "abilities": [
+            "Limber",
+            "Technician",
+            "Unnerve"
+        ],
+        "evolution": [
+            "Meowth",
+            "Persian"
+        ],
+        "height": "3′3″ (0.99m)",
+        "id": "053",
+        "name": "Persian",
+        "species": "Classy Cat Pokémon",
+        "stats": {
+            "attack": 70,
+            "defense": 60,
+            "hp": 65,
+            "sp.atk": 65,
+            "sp.def": 65,
+            "speed": 115,
+            "total": 440
+        },
+        "type": [
+            "Normal"
+        ],
+        "weight": "70.5 lbs (32.0 kg)"
+    },
+    {
+        "abilities": [
+            "Cloud Nine",
+            "Damp",
+            "Swift Swim"
+        ],
+        "evolution": [
+            "Psyduck",
+            "Golduck"
+        ],
+        "height": "2′7″ (0.79m)",
+        "id": "054",
+        "name": "Psyduck",
+        "species": "Duck Pokémon",
+        "stats": {
+            "attack": 52,
+            "defense": 48,
+            "hp": 50,
+            "sp.atk": 65,
+            "sp.def": 50,
+            "speed": 55,
+            "total": 320
+        },
+        "type": [
+            "Water"
+        ],
+        "weight": "43.2 lbs (19.6 kg)"
+    },
+    {
+        "abilities": [
+            "Cloud Nine",
+            "Damp",
+            "Swift Swim"
+        ],
+        "evolution": [
+            "Psyduck",
+            "Golduck"
+        ],
+        "height": "5′7″ (1.70m)",
+        "id": "055",
+        "name": "Golduck",
+        "species": "Duck Pokémon",
+        "stats": {
+            "attack": 82,
+            "defense": 78,
+            "hp": 80,
+            "sp.atk": 95,
+            "sp.def": 80,
+            "speed": 85,
+            "total": 500
+        },
+        "type": [
+            "Water"
+        ],
+        "weight": "168.9 lbs (76.6 kg)"
+    },
+    {
+        "abilities": [
+            "Anger Point",
+            "Vital Spirit",
+            "Defiant"
+        ],
+        "evolution": [
+            "Mankey",
+            "Primeape"
+        ],
+        "height": "1′8″ (0.51m)",
+        "id": "056",
+        "name": "Mankey",
+        "species": "Pig Monkey Pokémon",
+        "stats": {
+            "attack": 80,
+            "defense": 35,
+            "hp": 40,
+            "sp.atk": 35,
+            "sp.def": 45,
+            "speed": 70,
+            "total": 305
+        },
+        "type": [
+            "Fighting"
+        ],
+        "weight": "61.7 lbs (28.0 kg)"
+    },
+    {
+        "abilities": [
+            "Anger Point",
+            "Vital Spirit",
+            "Defiant"
+        ],
+        "evolution": [
+            "Mankey",
+            "Primeape"
+        ],
+        "height": "3′3″ (0.99m)",
+        "id": "057",
+        "name": "Primeape",
+        "species": "Pig Monkey Pokémon",
+        "stats": {
+            "attack": 105,
+            "defense": 60,
+            "hp": 65,
+            "sp.atk": 60,
+            "sp.def": 70,
+            "speed": 95,
+            "total": 455
+        },
+        "type": [
+            "Fighting"
+        ],
+        "weight": "70.5 lbs (32.0 kg)"
+    },
+    {
+        "abilities": [
+            "Flash Fire",
+            "Intimidate",
+            "Justified"
+        ],
+        "evolution": [
+            "Growlithe",
+            "Arcanine"
+        ],
+        "height": "2′4″ (0.71m)",
+        "id": "058",
+        "name": "Growlithe",
+        "species": "Puppy Pokémon",
+        "stats": {
+            "attack": 70,
+            "defense": 45,
+            "hp": 55,
+            "sp.atk": 70,
+            "sp.def": 50,
+            "speed": 60,
+            "total": 350
+        },
+        "type": [
+            "Fire"
+        ],
+        "weight": "41.9 lbs (19.0 kg)"
+    },
+    {
+        "abilities": [
+            "Flash Fire",
+            "Intimidate",
+            "Justified"
+        ],
+        "evolution": [
+            "Growlithe",
+            "Arcanine"
+        ],
+        "height": "6′3″ (1.91m)",
+        "id": "059",
+        "name": "Arcanine",
+        "species": "Legendary Pokémon",
+        "stats": {
+            "attack": 110,
+            "defense": 80,
+            "hp": 90,
+            "sp.atk": 100,
+            "sp.def": 80,
+            "speed": 95,
+            "total": 555
+        },
+        "type": [
+            "Fire"
+        ],
+        "weight": "341.7 lbs (155.0 kg)"
+    },
+    {
+        "abilities": [
+            "Damp",
+            "Water Absorb",
+            "Swift Swim"
+        ],
+        "evolution": [
+            "Poliwag",
+            "Poliwhirl",
+            "Poliwrath"
+        ],
+        "height": "2′0″ (0.61m)",
+        "id": "060",
+        "name": "Poliwag",
+        "species": "Tadpole Pokémon",
+        "stats": {
+            "attack": 50,
+            "defense": 40,
+            "hp": 40,
+            "sp.atk": 40,
+            "sp.def": 40,
+            "speed": 90,
+            "total": 300
+        },
+        "type": [
+            "Water"
+        ],
+        "weight": "27.3 lbs (12.4 kg)"
+    },
+    {
+        "abilities": [
+            "Damp",
+            "Water Absorb",
+            "Swift Swim"
+        ],
+        "evolution": [
+            "Poliwag",
+            "Poliwhirl",
+            "Poliwrath"
+        ],
+        "height": "3′3″ (0.99m)",
+        "id": "061",
+        "name": "Poliwhirl",
+        "species": "Tadpole Pokémon",
+        "stats": {
+            "attack": 65,
+            "defense": 65,
+            "hp": 65,
+            "sp.atk": 50,
+            "sp.def": 50,
+            "speed": 90,
+            "total": 385
+        },
+        "type": [
+            "Water"
+        ],
+        "weight": "44.1 lbs (20.0 kg)"
+    },
+    {
+        "abilities": [
+            "Damp",
+            "Water Absorb",
+            "Swift Swim"
+        ],
+        "evolution": [
+            "Poliwag",
+            "Poliwhirl",
+            "Poliwrath"
+        ],
+        "height": "4′3″ (1.30m)",
+        "id": "062",
+        "name": "Poliwrath",
+        "species": "Tadpole Pokémon",
+        "stats": {
+            "attack": 95,
+            "defense": 95,
+            "hp": 90,
+            "sp.atk": 70,
+            "sp.def": 90,
+            "speed": 70,
+            "total": 510
+        },
+        "type": [
+            "Water",
+            "Fighting"
+        ],
+        "weight": "119 lbs (54.0 kg)"
+    },
+    {
+        "abilities": [
+            "Inner Focus",
+            "Synchronize",
+            "Magic Guard"
+        ],
+        "evolution": [
+            "Abra",
+            "Kadabra",
+            "Alakazam"
+        ],
+        "height": "2′11″ (0.89m)",
+        "id": "063",
+        "name": "Abra",
+        "species": "Psi Pokémon",
+        "stats": {
+            "attack": 20,
+            "defense": 15,
+            "hp": 25,
+            "sp.atk": 105,
+            "sp.def": 55,
+            "speed": 90,
+            "total": 310
+        },
+        "type": [
+            "Psychic"
+        ],
+        "weight": "43 lbs (19.5 kg)"
+    },
+    {
+        "abilities": [
+            "Inner Focus",
+            "Synchronize",
+            "Magic Guard"
+        ],
+        "evolution": [
+            "Abra",
+            "Kadabra",
+            "Alakazam"
+        ],
+        "height": "4′3″ (1.30m)",
+        "id": "064",
+        "name": "Kadabra",
+        "species": "Psi Pokémon",
+        "stats": {
+            "attack": 35,
+            "defense": 30,
+            "hp": 40,
+            "sp.atk": 120,
+            "sp.def": 70,
+            "speed": 105,
+            "total": 400
+        },
+        "type": [
+            "Psychic"
+        ],
+        "weight": "124.6 lbs (56.5 kg)"
+    },
+    {
+        "abilities": [
+            "Inner Focus",
+            "Synchronize",
+            "Magic Guard"
+        ],
+        "evolution": [
+            "Abra",
+            "Kadabra",
+            "Alakazam"
+        ],
+        "height": "4′11″ (1.50m)",
+        "id": "065",
+        "name": "Alakazam",
+        "species": "Psi Pokémon",
+        "stats": {
+            "attack": 50,
+            "defense": 45,
+            "hp": 55,
+            "sp.atk": 135,
+            "sp.def": 95,
+            "speed": 120,
+            "total": 500
+        },
+        "type": [
+            "Psychic"
+        ],
+        "weight": "105.8 lbs (48.0 kg)"
+    },
+    {
+        "abilities": [
+            "Guts",
+            "No Guard",
+            "Steadfast"
+        ],
+        "evolution": [
+            "Machop",
+            "Machoke",
+            "Machamp"
+        ],
+        "height": "2′7″ (0.79m)",
+        "id": "066",
+        "name": "Machop",
+        "species": "Superpower Pokémon",
+        "stats": {
+            "attack": 80,
+            "defense": 50,
+            "hp": 70,
+            "sp.atk": 35,
+            "sp.def": 35,
+            "speed": 35,
+            "total": 305
+        },
+        "type": [
+            "Fighting"
+        ],
+        "weight": "43 lbs (19.5 kg)"
+    },
+    {
+        "abilities": [
+            "Guts",
+            "No Guard",
+            "Steadfast"
+        ],
+        "evolution": [
+            "Machop",
+            "Machoke",
+            "Machamp"
+        ],
+        "height": "4′11″ (1.50m)",
+        "id": "067",
+        "name": "Machoke",
+        "species": "Superpower Pokémon",
+        "stats": {
+            "attack": 100,
+            "defense": 70,
+            "hp": 80,
+            "sp.atk": 50,
+            "sp.def": 60,
+            "speed": 45,
+            "total": 405
+        },
+        "type": [
+            "Fighting"
+        ],
+        "weight": "155.4 lbs (70.5 kg)"
+    },
+    {
+        "abilities": [
+            "Guts",
+            "No Guard",
+            "Steadfast"
+        ],
+        "evolution": [
+            "Machop",
+            "Machoke",
+            "Machamp"
+        ],
+        "height": "5′3″ (1.60m)",
+        "id": "068",
+        "name": "Machamp",
+        "species": "Superpower Pokémon",
+        "stats": {
+            "attack": 130,
+            "defense": 80,
+            "hp": 90,
+            "sp.atk": 65,
+            "sp.def": 85,
+            "speed": 55,
+            "total": 505
+        },
+        "type": [
+            "Fighting"
+        ],
+        "weight": "286.6 lbs (130.0 kg)"
+    },
+    {
+        "abilities": [
+            "Chlorophyll",
+            "Gluttony"
+        ],
+        "evolution": [
+            "Bellsprout",
+            "Weepinbell",
+            "Victreebel"
+        ],
+        "height": "2′4″ (0.71m)",
+        "id": "069",
+        "name": "Bellsprout",
+        "species": "Flower Pokémon",
+        "stats": {
+            "attack": 75,
+            "defense": 35,
+            "hp": 50,
+            "sp.atk": 70,
+            "sp.def": 30,
+            "speed": 40,
+            "total": 300
+        },
+        "type": [
+            "Grass",
+            "Poison"
+        ],
+        "weight": "8.8 lbs (4.0 kg)"
+    },
+    {
+        "abilities": [
+            "Chlorophyll",
+            "Gluttony"
+        ],
+        "evolution": [
+            "Bellsprout",
+            "Weepinbell",
+            "Victreebel"
+        ],
+        "height": "3′3″ (0.99m)",
+        "id": "070",
+        "name": "Weepinbell",
+        "species": "Flycatcher Pokémon",
+        "stats": {
+            "attack": 90,
+            "defense": 50,
+            "hp": 65,
+            "sp.atk": 85,
+            "sp.def": 45,
+            "speed": 55,
+            "total": 390
+        },
+        "type": [
+            "Grass",
+            "Poison"
+        ],
+        "weight": "14.1 lbs (6.4 kg)"
+    },
+    {
+        "abilities": [
+            "Chlorophyll",
+            "Gluttony"
+        ],
+        "evolution": [
+            "Bellsprout",
+            "Weepinbell",
+            "Victreebel"
+        ],
+        "height": "5′7″ (1.70m)",
+        "id": "071",
+        "name": "Victreebel",
+        "species": "Flycatcher Pokémon",
+        "stats": {
+            "attack": 105,
+            "defense": 65,
+            "hp": 80,
+            "sp.atk": 100,
+            "sp.def": 70,
+            "speed": 70,
+            "total": 490
+        },
+        "type": [
+            "Grass",
+            "Poison"
+        ],
+        "weight": "34.2 lbs (15.5 kg)"
+    },
+    {
+        "abilities": [
+            "Clear Body",
+            "Liquid Ooze",
+            "Rain Dish"
+        ],
+        "evolution": [
+            "Tentacool",
+            "Tentacruel"
+        ],
+        "height": "2′11″ (0.89m)",
+        "id": "072",
+        "name": "Tentacool",
+        "species": "Jellyfish Pokémon",
+        "stats": {
+            "attack": 40,
+            "defense": 35,
+            "hp": 40,
+            "sp.atk": 50,
+            "sp.def": 100,
+            "speed": 70,
+            "total": 335
+        },
+        "type": [
+            "Water",
+            "Poison"
+        ],
+        "weight": "100.3 lbs (45.5 kg)"
+    },
+    {
+        "abilities": [
+            "Clear Body",
+            "Liquid Ooze",
+            "Rain Dish"
+        ],
+        "evolution": [
+            "Tentacool",
+            "Tentacruel"
+        ],
+        "height": "5′3″ (1.60m)",
+        "id": "073",
+        "name": "Tentacruel",
+        "species": "Jellyfish Pokémon",
+        "stats": {
+            "attack": 70,
+            "defense": 65,
+            "hp": 80,
+            "sp.atk": 80,
+            "sp.def": 120,
+            "speed": 100,
+            "total": 515
+        },
+        "type": [
+            "Water",
+            "Poison"
+        ],
+        "weight": "121.3 lbs (55.0 kg)"
+    },
+    {
+        "abilities": [
+            "Rock Head",
+            "Sturdy",
+            "Sand Veil"
+        ],
+        "evolution": [
+            "Geodude",
+            "Graveler",
+            "Golem"
+        ],
+        "height": "1′4″ (0.41m)",
+        "id": "074",
+        "name": "Geodude",
+        "species": "Rock Pokémon",
+        "stats": {
+            "attack": 80,
+            "defense": 100,
+            "hp": 40,
+            "sp.atk": 30,
+            "sp.def": 30,
+            "speed": 20,
+            "total": 300
+        },
+        "type": [
+            "Rock",
+            "Ground"
+        ],
+        "weight": "44.1 lbs (20.0 kg)"
+    },
+    {
+        "abilities": [
+            "Rock Head",
+            "Sturdy",
+            "Sand Veil"
+        ],
+        "evolution": [
+            "Geodude",
+            "Graveler",
+            "Golem"
+        ],
+        "height": "3′3″ (0.99m)",
+        "id": "075",
+        "name": "Graveler",
+        "species": "Rock Pokémon",
+        "stats": {
+            "attack": 95,
+            "defense": 115,
+            "hp": 55,
+            "sp.atk": 45,
+            "sp.def": 45,
+            "speed": 35,
+            "total": 390
+        },
+        "type": [
+            "Rock",
+            "Ground"
+        ],
+        "weight": "231.5 lbs (105.0 kg)"
+    },
+    {
+        "abilities": [
+            "Rock Head",
+            "Sturdy",
+            "Sand Veil"
+        ],
+        "evolution": [
+            "Geodude",
+            "Graveler",
+            "Golem"
+        ],
+        "height": "4′7″ (1.40m)",
+        "id": "076",
+        "name": "Golem",
+        "species": "Megaton Pokémon",
+        "stats": {
+            "attack": 120,
+            "defense": 130,
+            "hp": 80,
+            "sp.atk": 55,
+            "sp.def": 65,
+            "speed": 45,
+            "total": 495
+        },
+        "type": [
+            "Rock",
+            "Ground"
+        ],
+        "weight": "661.4 lbs (300.0 kg)"
+    },
+    {
+        "abilities": [
+            "Flash Fire",
+            "Run Away",
+            "Flame Body"
+        ],
+        "evolution": [
+            "Ponyta",
+            "Rapidash"
+        ],
+        "height": "3′3″ (0.99m)",
+        "id": "077",
+        "name": "Ponyta",
+        "species": "Fire Horse Pokémon",
+        "stats": {
+            "attack": 85,
+            "defense": 55,
+            "hp": 50,
+            "sp.atk": 65,
+            "sp.def": 65,
+            "speed": 90,
+            "total": 410
+        },
+        "type": [
+            "Fire"
+        ],
+        "weight": "66.1 lbs (30.0 kg)"
+    },
+    {
+        "abilities": [
+            "Flash Fire",
+            "Run Away",
+            "Flame Body"
+        ],
+        "evolution": [
+            "Ponyta",
+            "Rapidash"
+        ],
+        "height": "5′7″ (1.70m)",
+        "id": "078",
+        "name": "Rapidash",
+        "species": "Fire Horse Pokémon",
+        "stats": {
+            "attack": 100,
+            "defense": 70,
+            "hp": 65,
+            "sp.atk": 80,
+            "sp.def": 80,
+            "speed": 105,
+            "total": 500
+        },
+        "type": [
+            "Fire"
+        ],
+        "weight": "209.4 lbs (95.0 kg)"
+    },
+    {
+        "abilities": [
+            "Oblivious",
+            "Own Tempo",
+            "Regenerator"
+        ],
+        "evolution": [
+            "Slowpoke",
+            "Slowbro"
+        ],
+        "height": "3′11″ (1.19m)",
+        "id": "079",
+        "name": "Slowpoke",
+        "species": "Dopey Pokémon",
+        "stats": {
+            "attack": 65,
+            "defense": 65,
+            "hp": 90,
+            "sp.atk": 40,
+            "sp.def": 40,
+            "speed": 15,
+            "total": 315
+        },
+        "type": [
+            "Water",
+            "Psychic"
+        ],
+        "weight": "79.4 lbs (36.0 kg)"
+    },
+    {
+        "abilities": [
+            "Oblivious",
+            "Own Tempo",
+            "Regenerator"
+        ],
+        "evolution": [
+            "Slowpoke",
+            "Slowbro"
+        ],
+        "height": "5′3″ (1.60m)",
+        "id": "080",
+        "name": "Slowbro",
+        "species": "Hermit Crab Pokémon",
+        "stats": {
+            "attack": 75,
+            "defense": 110,
+            "hp": 95,
+            "sp.atk": 100,
+            "sp.def": 80,
+            "speed": 30,
+            "total": 490
+        },
+        "type": [
+            "Water",
+            "Psychic"
+        ],
+        "weight": "173.1 lbs (78.5 kg)"
+    },
+    {
+        "abilities": [
+            "Magnet Pull",
+            "Sturdy",
+            "Analytic"
+        ],
+        "evolution": [
+            "Magnemite",
+            "Magneton"
+        ],
+        "height": "1′0″ (0.30m)",
+        "id": "081",
+        "name": "Magnemite",
+        "species": "Magnet Pokémon",
+        "stats": {
+            "attack": 35,
+            "defense": 70,
+            "hp": 25,
+            "sp.atk": 95,
+            "sp.def": 55,
+            "speed": 45,
+            "total": 325
+        },
+        "type": [
+            "Electric",
+            "Steel"
+        ],
+        "weight": "13.2 lbs (6.0 kg)"
+    },
+    {
+        "abilities": [
+            "Magnet Pull",
+            "Sturdy",
+            "Analytic"
+        ],
+        "evolution": [
+            "Magnemite",
+            "Magneton"
+        ],
+        "height": "3′3″ (0.99m)",
+        "id": "082",
+        "name": "Magneton",
+        "species": "Magnet Pokémon",
+        "stats": {
+            "attack": 60,
+            "defense": 95,
+            "hp": 50,
+            "sp.atk": 120,
+            "sp.def": 70,
+            "speed": 70,
+            "total": 465
+        },
+        "type": [
+            "Electric",
+            "Steel"
+        ],
+        "weight": "132.3 lbs (60.0 kg)"
+    },
+    {
+        "abilities": [
+            "Inner Focus",
+            "Keen Eye",
+            "Defiant"
+        ],
+        "evolution": [],
+        "height": "2′7″ (0.79m)",
+        "id": "083",
+        "name": "Farfetch'd",
+        "species": "Wild Duck Pokémon",
+        "stats": {
+            "attack": 65,
+            "defense": 55,
+            "hp": 52,
+            "sp.atk": 58,
+            "sp.def": 62,
+            "speed": 60,
+            "total": 352
+        },
+        "type": [
+            "Normal",
+            "Flying"
+        ],
+        "weight": "33.1 lbs (15.0 kg)"
+    },
+    {
+        "abilities": [
+            "Early Bird",
+            "Run Away",
+            "Tangled Feet"
+        ],
+        "evolution": [
+            "Doduo",
+            "Dodrio"
+        ],
+        "height": "4′7″ (1.40m)",
+        "id": "084",
+        "name": "Doduo",
+        "species": "Twin Bird Pokémon",
+        "stats": {
+            "attack": 85,
+            "defense": 45,
+            "hp": 35,
+            "sp.atk": 35,
+            "sp.def": 35,
+            "speed": 75,
+            "total": 310
+        },
+        "type": [
+            "Normal",
+            "Flying"
+        ],
+        "weight": "86.4 lbs (39.2 kg)"
+    },
+    {
+        "abilities": [
+            "Early Bird",
+            "Run Away",
+            "Tangled Feet"
+        ],
+        "evolution": [
+            "Doduo",
+            "Dodrio"
+        ],
+        "height": "5′11″ (1.80m)",
+        "id": "085",
+        "name": "Dodrio",
+        "species": "Triple Bird Pokémon",
+        "stats": {
+            "attack": 110,
+            "defense": 70,
+            "hp": 60,
+            "sp.atk": 60,
+            "sp.def": 60,
+            "speed": 100,
+            "total": 460
+        },
+        "type": [
+            "Normal",
+            "Flying"
+        ],
+        "weight": "187.8 lbs (85.2 kg)"
+    },
+    {
+        "abilities": [
+            "Hydration",
+            "Thick Fat",
+            "Ice Body"
+        ],
+        "evolution": [
+            "Seel",
+            "Dewgong"
+        ],
+        "height": "3′7″ (1.09m)",
+        "id": "086",
+        "name": "Seel",
+        "species": "Sea Lion Pokémon",
+        "stats": {
+            "attack": 45,
+            "defense": 55,
+            "hp": 65,
+            "sp.atk": 45,
+            "sp.def": 70,
+            "speed": 45,
+            "total": 325
+        },
+        "type": [
+            "Water"
+        ],
+        "weight": "198.4 lbs (90.0 kg)"
+    },
+    {
+        "abilities": [
+            "Hydration",
+            "Thick Fat",
+            "Ice Body"
+        ],
+        "evolution": [
+            "Seel",
+            "Dewgong"
+        ],
+        "height": "5′7″ (1.70m)",
+        "id": "087",
+        "name": "Dewgong",
+        "species": "Sea Lion Pokémon",
+        "stats": {
+            "attack": 70,
+            "defense": 80,
+            "hp": 90,
+            "sp.atk": 70,
+            "sp.def": 95,
+            "speed": 70,
+            "total": 475
+        },
+        "type": [
+            "Water",
+            "Ice"
+        ],
+        "weight": "264.6 lbs (120.0 kg)"
+    },
+    {
+        "abilities": [
+            "Stench",
+            "Sticky Hold",
+            "Poison Touch"
+        ],
+        "evolution": [
+            "Grimer",
+            "Muk"
+        ],
+        "height": "2′11″ (0.89m)",
+        "id": "088",
+        "name": "Grimer",
+        "species": "Sludge Pokémon",
+        "stats": {
+            "attack": 80,
+            "defense": 50,
+            "hp": 80,
+            "sp.atk": 40,
+            "sp.def": 50,
+            "speed": 25,
+            "total": 325
+        },
+        "type": [
+            "Poison"
+        ],
+        "weight": "66.1 lbs (30.0 kg)"
+    },
+    {
+        "abilities": [
+            "Stench",
+            "Sticky Hold",
+            "Poison Touch"
+        ],
+        "evolution": [
+            "Grimer",
+            "Muk"
+        ],
+        "height": "3′11″ (1.19m)",
+        "id": "089",
+        "name": "Muk",
+        "species": "Sludge Pokémon",
+        "stats": {
+            "attack": 105,
+            "defense": 75,
+            "hp": 105,
+            "sp.atk": 65,
+            "sp.def": 100,
+            "speed": 50,
+            "total": 500
+        },
+        "type": [
+            "Poison"
+        ],
+        "weight": "66.1 lbs (30.0 kg)"
+    },
+    {
+        "abilities": [
+            "Shell Armor",
+            "Skill Link",
+            "Overcoat"
+        ],
+        "evolution": [
+            "Shellder",
+            "Cloyster"
+        ],
+        "height": "1′0″ (0.30m)",
+        "id": "090",
+        "name": "Shellder",
+        "species": "Bivalve Pokémon",
+        "stats": {
+            "attack": 65,
+            "defense": 100,
+            "hp": 30,
+            "sp.atk": 45,
+            "sp.def": 25,
+            "speed": 40,
+            "total": 305
+        },
+        "type": [
+            "Water"
+        ],
+        "weight": "8.8 lbs (4.0 kg)"
+    },
+    {
+        "abilities": [
+            "Shell Armor",
+            "Skill Link",
+            "Overcoat"
+        ],
+        "evolution": [
+            "Shellder",
+            "Cloyster"
+        ],
+        "height": "4′11″ (1.50m)",
+        "id": "091",
+        "name": "Cloyster",
+        "species": "Bivalve Pokémon",
+        "stats": {
+            "attack": 95,
+            "defense": 180,
+            "hp": 50,
+            "sp.atk": 85,
+            "sp.def": 45,
+            "speed": 70,
+            "total": 525
+        },
+        "type": [
+            "Water",
+            "Ice"
+        ],
+        "weight": "292.1 lbs (132.5 kg)"
+    },
+    {
+        "abilities": [
+            "Levitate"
+        ],
+        "evolution": [
+            "Gastly",
+            "Haunter",
+            "Gengar"
+        ],
+        "height": "4′3″ (1.30m)",
+        "id": "092",
+        "name": "Gastly",
+        "species": "Gas Pokémon",
+        "stats": {
+            "attack": 35,
+            "defense": 30,
+            "hp": 30,
+            "sp.atk": 100,
+            "sp.def": 35,
+            "speed": 80,
+            "total": 310
+        },
+        "type": [
+            "Ghost",
+            "Poison"
+        ],
+        "weight": "0.2 lbs (0.1 kg)"
+    },
+    {
+        "abilities": [
+            "Levitate"
+        ],
+        "evolution": [
+            "Gastly",
+            "Haunter",
+            "Gengar"
+        ],
+        "height": "5′3″ (1.60m)",
+        "id": "093",
+        "name": "Haunter",
+        "species": "Gas Pokémon",
+        "stats": {
+            "attack": 50,
+            "defense": 45,
+            "hp": 45,
+            "sp.atk": 115,
+            "sp.def": 55,
+            "speed": 95,
+            "total": 405
+        },
+        "type": [
+            "Ghost",
+            "Poison"
+        ],
+        "weight": "0.2 lbs (0.1 kg)"
+    },
+    {
+        "abilities": [
+            "Levitate"
+        ],
+        "evolution": [
+            "Gastly",
+            "Haunter",
+            "Gengar"
+        ],
+        "height": "4′11″ (1.50m)",
+        "id": "094",
+        "name": "Gengar",
+        "species": "Shadow Pokémon",
+        "stats": {
+            "attack": 65,
+            "defense": 60,
+            "hp": 60,
+            "sp.atk": 130,
+            "sp.def": 75,
+            "speed": 110,
+            "total": 500
+        },
+        "type": [
+            "Ghost",
+            "Poison"
+        ],
+        "weight": "89.3 lbs (40.5 kg)"
+    },
+    {
+        "abilities": [
+            "Rock Head",
+            "Sturdy",
+            "Weak Armor"
+        ],
+        "evolution": [
+            "Onix"
+        ],
+        "height": "28′10″ (8.79m)",
+        "id": "095",
+        "name": "Onix",
+        "species": "Rock Snake Pokémon",
+        "stats": {
+            "attack": 45,
+            "defense": 160,
+            "hp": 35,
+            "sp.atk": 30,
+            "sp.def": 45,
+            "speed": 70,
+            "total": 385
+        },
+        "type": [
+            "Rock",
+            "Ground"
+        ],
+        "weight": "463 lbs (210.0 kg)"
+    },
+    {
+        "abilities": [
+            "Forewarn",
+            "Insomnia",
+            "Inner Focus"
+        ],
+        "evolution": [
+            "Drowzee",
+            "Hypno"
+        ],
+        "height": "3′3″ (0.99m)",
+        "id": "096",
+        "name": "Drowzee",
+        "species": "Hypnosis Pokémon",
+        "stats": {
+            "attack": 48,
+            "defense": 45,
+            "hp": 60,
+            "sp.atk": 43,
+            "sp.def": 90,
+            "speed": 42,
+            "total": 328
+        },
+        "type": [
+            "Psychic"
+        ],
+        "weight": "71.4 lbs (32.4 kg)"
+    },
+    {
+        "abilities": [
+            "Forewarn",
+            "Insomnia",
+            "Inner Focus"
+        ],
+        "evolution": [
+            "Drowzee",
+            "Hypno"
+        ],
+        "height": "5′3″ (1.60m)",
+        "id": "097",
+        "name": "Hypno",
+        "species": "Hypnosis Pokémon",
+        "stats": {
+            "attack": 73,
+            "defense": 70,
+            "hp": 85,
+            "sp.atk": 73,
+            "sp.def": 115,
+            "speed": 67,
+            "total": 483
+        },
+        "type": [
+            "Psychic"
+        ],
+        "weight": "166.7 lbs (75.6 kg)"
+    },
+    {
+        "abilities": [
+            "Hyper Cutter",
+            "Shell Armor",
+            "Sheer Force"
+        ],
+        "evolution": [
+            "Krabby",
+            "Kingler"
+        ],
+        "height": "1′4″ (0.41m)",
+        "id": "098",
+        "name": "Krabby",
+        "species": "River Crab Pokémon",
+        "stats": {
+            "attack": 105,
+            "defense": 90,
+            "hp": 30,
+            "sp.atk": 25,
+            "sp.def": 25,
+            "speed": 50,
+            "total": 325
+        },
+        "type": [
+            "Water"
+        ],
+        "weight": "14.3 lbs (6.5 kg)"
+    },
+    {
+        "abilities": [
+            "Hyper Cutter",
+            "Shell Armor",
+            "Sheer Force"
+        ],
+        "evolution": [
+            "Krabby",
+            "Kingler"
+        ],
+        "height": "4′3″ (1.30m)",
+        "id": "099",
+        "name": "Kingler",
+        "species": "Pincer Pokémon",
+        "stats": {
+            "attack": 130,
+            "defense": 115,
+            "hp": 55,
+            "sp.atk": 50,
+            "sp.def": 50,
+            "speed": 75,
+            "total": 475
+        },
+        "type": [
+            "Water"
+        ],
+        "weight": "132.3 lbs (60.0 kg)"
+    },
+    {
+        "abilities": [
+            "Soundproof",
+            "Static",
+            "Aftermath"
+        ],
+        "evolution": [
+            "Voltorb",
+            "Electrode"
+        ],
+        "height": "1′8″ (0.51m)",
+        "id": "100",
+        "name": "Voltorb",
+        "species": "Ball Pokémon",
+        "stats": {
+            "attack": 30,
+            "defense": 50,
+            "hp": 40,
+            "sp.atk": 55,
+            "sp.def": 55,
+            "speed": 100,
+            "total": 330
+        },
+        "type": [
+            "Electric"
+        ],
+        "weight": "22.9 lbs (10.4 kg)"
+    },
+    {
+        "abilities": [
+            "Soundproof",
+            "Static",
+            "Aftermath"
+        ],
+        "evolution": [
+            "Voltorb",
+            "Electrode"
+        ],
+        "height": "3′11″ (1.19m)",
+        "id": "101",
+        "name": "Electrode",
+        "species": "Ball Pokémon",
+        "stats": {
+            "attack": 50,
+            "defense": 70,
+            "hp": 60,
+            "sp.atk": 80,
+            "sp.def": 80,
+            "speed": 140,
+            "total": 480
+        },
+        "type": [
+            "Electric"
+        ],
+        "weight": "146.8 lbs (66.6 kg)"
+    },
+    {
+        "abilities": [
+            "Chlorophyll",
+            "Harvest"
+        ],
+        "evolution": [
+            "Exeggcute",
+            "Exeggutor"
+        ],
+        "height": "1′4″ (0.41m)",
+        "id": "102",
+        "name": "Exeggcute",
+        "species": "Egg Pokémon",
+        "stats": {
+            "attack": 40,
+            "defense": 80,
+            "hp": 60,
+            "sp.atk": 60,
+            "sp.def": 45,
+            "speed": 40,
+            "total": 325
+        },
+        "type": [
+            "Grass",
+            "Psychic"
+        ],
+        "weight": "5.5 lbs (2.5 kg)"
+    },
+    {
+        "abilities": [
+            "Chlorophyll",
+            "Harvest"
+        ],
+        "evolution": [
+            "Exeggcute",
+            "Exeggutor"
+        ],
+        "height": "6′7″ (2.01m)",
+        "id": "103",
+        "name": "Exeggutor",
+        "species": "Coconut Pokémon",
+        "stats": {
+            "attack": 95,
+            "defense": 85,
+            "hp": 95,
+            "sp.atk": 125,
+            "sp.def": 65,
+            "speed": 55,
+            "total": 520
+        },
+        "type": [
+            "Grass",
+            "Psychic"
+        ],
+        "weight": "264.6 lbs (120.0 kg)"
+    },
+    {
+        "abilities": [
+            "Lightning Rod",
+            "Rock Head",
+            "Battle Armor"
+        ],
+        "evolution": [
+            "Cubone",
+            "Marowak"
+        ],
+        "height": "1′4″ (0.41m)",
+        "id": "104",
+        "name": "Cubone",
+        "species": "Lonely Pokémon",
+        "stats": {
+            "attack": 50,
+            "defense": 95,
+            "hp": 50,
+            "sp.atk": 40,
+            "sp.def": 50,
+            "speed": 35,
+            "total": 320
+        },
+        "type": [
+            "Ground"
+        ],
+        "weight": "14.3 lbs (6.5 kg)"
+    },
+    {
+        "abilities": [
+            "Lightning Rod",
+            "Rock Head",
+            "Battle Armor"
+        ],
+        "evolution": [
+            "Cubone",
+            "Marowak"
+        ],
+        "height": "3′3″ (0.99m)",
+        "id": "105",
+        "name": "Marowak",
+        "species": "Bone Keeper Pokémon",
+        "stats": {
+            "attack": 80,
+            "defense": 110,
+            "hp": 60,
+            "sp.atk": 50,
+            "sp.def": 80,
+            "speed": 45,
+            "total": 425
+        },
+        "type": [
+            "Ground"
+        ],
+        "weight": "99.2 lbs (45.0 kg)"
+    },
+    {
+        "abilities": [
+            "Limber",
+            "Reckless",
+            "Unburden"
+        ],
+        "evolution": [
+            "Hitmonlee",
+            "Hitmonchan"
+        ],
+        "height": "4′11″ (1.50m)",
+        "id": "106",
+        "name": "Hitmonlee",
+        "species": "Kicking Pokémon",
+        "stats": {
+            "attack": 120,
+            "defense": 53,
+            "hp": 50,
+            "sp.atk": 35,
+            "sp.def": 110,
+            "speed": 87,
+            "total": 455
+        },
+        "type": [
+            "Fighting"
+        ],
+        "weight": "109.8 lbs (49.8 kg)"
+    },
+    {
+        "abilities": [
+            "Iron Fist",
+            "Keen Eye",
+            "Inner Focus"
+        ],
+        "evolution": [
+            "Hitmonlee",
+            "Hitmonchan"
+        ],
+        "height": "4′7″ (1.40m)",
+        "id": "107",
+        "name": "Hitmonchan",
+        "species": "Punching Pokémon",
+        "stats": {
+            "attack": 105,
+            "defense": 79,
+            "hp": 50,
+            "sp.atk": 35,
+            "sp.def": 110,
+            "speed": 76,
+            "total": 455
+        },
+        "type": [
+            "Fighting"
+        ],
+        "weight": "110.7 lbs (50.2 kg)"
+    },
+    {
+        "abilities": [
+            "Oblivious",
+            "Own Tempo",
+            "Cloud Nine"
+        ],
+        "evolution": [
+            "Lickitung"
+        ],
+        "height": "3′11″ (1.19m)",
+        "id": "108",
+        "name": "Lickitung",
+        "species": "Licking Pokémon",
+        "stats": {
+            "attack": 55,
+            "defense": 75,
+            "hp": 90,
+            "sp.atk": 60,
+            "sp.def": 75,
+            "speed": 30,
+            "total": 385
+        },
+        "type": [
+            "Normal"
+        ],
+        "weight": "144.4 lbs (65.5 kg)"
+    },
+    {
+        "abilities": [
+            "Levitate"
+        ],
+        "evolution": [
+            "Koffing",
+            "Weezing"
+        ],
+        "height": "2′0″ (0.61m)",
+        "id": "109",
+        "name": "Koffing",
+        "species": "Poison Gas Pokémon",
+        "stats": {
+            "attack": 65,
+            "defense": 95,
+            "hp": 40,
+            "sp.atk": 60,
+            "sp.def": 45,
+            "speed": 35,
+            "total": 340
+        },
+        "type": [
+            "Poison"
+        ],
+        "weight": "2.2 lbs (1.0 kg)"
+    },
+    {
+        "abilities": [
+            "Levitate"
+        ],
+        "evolution": [
+            "Koffing",
+            "Weezing"
+        ],
+        "height": "3′11″ (1.19m)",
+        "id": "110",
+        "name": "Weezing",
+        "species": "Poison Gas Pokémon",
+        "stats": {
+            "attack": 90,
+            "defense": 120,
+            "hp": 65,
+            "sp.atk": 85,
+            "sp.def": 70,
+            "speed": 60,
+            "total": 490
+        },
+        "type": [
+            "Poison"
+        ],
+        "weight": "20.9 lbs (9.5 kg)"
+    },
+    {
+        "abilities": [
+            "Lightning Rod",
+            "Rock Head",
+            "Reckless"
+        ],
+        "evolution": [
+            "Rhyhorn",
+            "Rhydon"
+        ],
+        "height": "3′3″ (0.99m)",
+        "id": "111",
+        "name": "Rhyhorn",
+        "species": "Spikes Pokémon",
+        "stats": {
+            "attack": 85,
+            "defense": 95,
+            "hp": 80,
+            "sp.atk": 30,
+            "sp.def": 30,
+            "speed": 25,
+            "total": 345
+        },
+        "type": [
+            "Ground",
+            "Rock"
+        ],
+        "weight": "253.5 lbs (115.0 kg)"
+    },
+    {
+        "abilities": [
+            "Lightning Rod",
+            "Rock Head",
+            "Reckless"
+        ],
+        "evolution": [
+            "Rhyhorn",
+            "Rhydon"
+        ],
+        "height": "6′3″ (1.91m)",
+        "id": "112",
+        "name": "Rhydon",
+        "species": "Drill Pokémon",
+        "stats": {
+            "attack": 130,
+            "defense": 120,
+            "hp": 105,
+            "sp.atk": 45,
+            "sp.def": 45,
+            "speed": 40,
+            "total": 485
+        },
+        "type": [
+            "Ground",
+            "Rock"
+        ],
+        "weight": "264.6 lbs (120.0 kg)"
+    },
+    {
+        "abilities": [
+            "Natural Cure",
+            "Serene Grace",
+            "Healer"
+        ],
+        "evolution": [
+            "Chansey"
+        ],
+        "height": "3′7″ (1.09m)",
+        "id": "113",
+        "name": "Chansey",
+        "species": "Egg Pokémon",
+        "stats": {
+            "attack": 5,
+            "defense": 5,
+            "hp": 250,
+            "sp.atk": 35,
+            "sp.def": 105,
+            "speed": 50,
+            "total": 450
+        },
+        "type": [
+            "Normal"
+        ],
+        "weight": "76.3 lbs (34.6 kg)"
+    },
+    {
+        "abilities": [
+            "Chlorophyll",
+            "Leaf Guard",
+            "Regenerator"
+        ],
+        "evolution": [
+            "Tangela"
+        ],
+        "height": "3′3″ (0.99m)",
+        "id": "114",
+        "name": "Tangela",
+        "species": "Vine Pokémon",
+        "stats": {
+            "attack": 55,
+            "defense": 115,
+            "hp": 65,
+            "sp.atk": 100,
+            "sp.def": 40,
+            "speed": 60,
+            "total": 435
+        },
+        "type": [
+            "Grass"
+        ],
+        "weight": "77.2 lbs (35.0 kg)"
+    },
+    {
+        "abilities": [
+            "Early Bird",
+            "Scrappy",
+            "Inner Focus"
+        ],
+        "evolution": [],
+        "height": "7′3″ (2.21m)",
+        "id": "115",
+        "name": "Kangaskhan",
+        "species": "Parent Pokémon",
+        "stats": {
+            "attack": 95,
+            "defense": 80,
+            "hp": 105,
+            "sp.atk": 40,
+            "sp.def": 80,
+            "speed": 90,
+            "total": 490
+        },
+        "type": [
+            "Normal"
+        ],
+        "weight": "176.4 lbs (80.0 kg)"
+    },
+    {
+        "abilities": [
+            "Sniper",
+            "Swift Swim",
+            "Damp"
+        ],
+        "evolution": [
+            "Horsea",
+            "Seadra"
+        ],
+        "height": "1′4″ (0.41m)",
+        "id": "116",
+        "name": "Horsea",
+        "species": "Dragon Pokémon",
+        "stats": {
+            "attack": 40,
+            "defense": 70,
+            "hp": 30,
+            "sp.atk": 70,
+            "sp.def": 25,
+            "speed": 60,
+            "total": 295
+        },
+        "type": [
+            "Water"
+        ],
+        "weight": "17.6 lbs (8.0 kg)"
+    },
+    {
+        "abilities": [
+            "Poison Point",
+            "Sniper",
+            "Damp"
+        ],
+        "evolution": [
+            "Horsea",
+            "Seadra"
+        ],
+        "height": "3′11″ (1.19m)",
+        "id": "117",
+        "name": "Seadra",
+        "species": "Dragon Pokémon",
+        "stats": {
+            "attack": 65,
+            "defense": 95,
+            "hp": 55,
+            "sp.atk": 95,
+            "sp.def": 45,
+            "speed": 85,
+            "total": 440
+        },
+        "type": [
+            "Water"
+        ],
+        "weight": "55.1 lbs (25.0 kg)"
+    },
+    {
+        "abilities": [
+            "Swift Swim",
+            "Water Veil",
+            "Lightning Rod"
+        ],
+        "evolution": [
+            "Goldeen",
+            "Seaking"
+        ],
+        "height": "2′0″ (0.61m)",
+        "id": "118",
+        "name": "Goldeen",
+        "species": "Goldfish Pokémon",
+        "stats": {
+            "attack": 67,
+            "defense": 60,
+            "hp": 45,
+            "sp.atk": 35,
+            "sp.def": 50,
+            "speed": 63,
+            "total": 320
+        },
+        "type": [
+            "Water"
+        ],
+        "weight": "33.1 lbs (15.0 kg)"
+    },
+    {
+        "abilities": [
+            "Swift Swim",
+            "Water Veil",
+            "Lightning Rod"
+        ],
+        "evolution": [
+            "Goldeen",
+            "Seaking"
+        ],
+        "height": "4′3″ (1.30m)",
+        "id": "119",
+        "name": "Seaking",
+        "species": "Goldfish Pokémon",
+        "stats": {
+            "attack": 92,
+            "defense": 65,
+            "hp": 80,
+            "sp.atk": 65,
+            "sp.def": 80,
+            "speed": 68,
+            "total": 450
+        },
+        "type": [
+            "Water"
+        ],
+        "weight": "86 lbs (39.0 kg)"
+    },
+    {
+        "abilities": [
+            "Illuminate",
+            "Natural Cure",
+            "Analytic"
+        ],
+        "evolution": [
+            "Staryu",
+            "Starmie"
+        ],
+        "height": "2′7″ (0.79m)",
+        "id": "120",
+        "name": "Staryu",
+        "species": "Star Shape Pokémon",
+        "stats": {
+            "attack": 45,
+            "defense": 55,
+            "hp": 30,
+            "sp.atk": 70,
+            "sp.def": 55,
+            "speed": 85,
+            "total": 340
+        },
+        "type": [
+            "Water"
+        ],
+        "weight": "76.1 lbs (34.5 kg)"
+    },
+    {
+        "abilities": [
+            "Illuminate",
+            "Natural Cure",
+            "Analytic"
+        ],
+        "evolution": [
+            "Staryu",
+            "Starmie"
+        ],
+        "height": "3′7″ (1.09m)",
+        "id": "121",
+        "name": "Starmie",
+        "species": "Mysterious Pokémon",
+        "stats": {
+            "attack": 75,
+            "defense": 85,
+            "hp": 60,
+            "sp.atk": 100,
+            "sp.def": 85,
+            "speed": 115,
+            "total": 520
+        },
+        "type": [
+            "Water",
+            "Psychic"
+        ],
+        "weight": "176.4 lbs (80.0 kg)"
+    },
+    {
+        "abilities": [
+            "Filter",
+            "Soundproof",
+            "Technician"
+        ],
+        "evolution": [
+            "Mr. Mime"
+        ],
+        "height": "4′3″ (1.30m)",
+        "id": "122",
+        "name": "Mr. Mime",
+        "species": "Barrier Pokémon",
+        "stats": {
+            "attack": 45,
+            "defense": 65,
+            "hp": 40,
+            "sp.atk": 100,
+            "sp.def": 120,
+            "speed": 90,
+            "total": 460
+        },
+        "type": [
+            "Psychic",
+            "Fairy"
+        ],
+        "weight": "120.2 lbs (54.5 kg)"
+    },
+    {
+        "abilities": [
+            "Swarm",
+            "Technician",
+            "Steadfast"
+        ],
+        "evolution": [
+            "Scyther"
+        ],
+        "height": "4′11″ (1.50m)",
+        "id": "123",
+        "name": "Scyther",
+        "species": "Mantis Pokémon",
+        "stats": {
+            "attack": 110,
+            "defense": 80,
+            "hp": 70,
+            "sp.atk": 55,
+            "sp.def": 80,
+            "speed": 105,
+            "total": 500
+        },
+        "type": [
+            "Bug",
+            "Flying"
+        ],
+        "weight": "123.5 lbs (56.0 kg)"
+    },
+    {
+        "abilities": [
+            "Forewarn",
+            "Oblivious",
+            "Dry Skin"
+        ],
+        "evolution": [
+            "Jynx"
+        ],
+        "height": "4′7″ (1.40m)",
+        "id": "124",
+        "name": "Jynx",
+        "species": "Human Shape Pokémon",
+        "stats": {
+            "attack": 50,
+            "defense": 35,
+            "hp": 65,
+            "sp.atk": 115,
+            "sp.def": 95,
+            "speed": 95,
+            "total": 455
+        },
+        "type": [
+            "Ice",
+            "Psychic"
+        ],
+        "weight": "89.5 lbs (40.6 kg)"
+    },
+    {
+        "abilities": [
+            "Static",
+            "Vital Spirit"
+        ],
+        "evolution": [
+            "Electabuzz"
+        ],
+        "height": "3′7″ (1.09m)",
+        "id": "125",
+        "name": "Electabuzz",
+        "species": "Electric Pokémon",
+        "stats": {
+            "attack": 83,
+            "defense": 57,
+            "hp": 65,
+            "sp.atk": 95,
+            "sp.def": 85,
+            "speed": 105,
+            "total": 490
+        },
+        "type": [
+            "Electric"
+        ],
+        "weight": "66.1 lbs (30.0 kg)"
+    },
+    {
+        "abilities": [
+            "Flame Body",
+            "Vital Spirit"
+        ],
+        "evolution": [
+            "Magmar"
+        ],
+        "height": "4′3″ (1.30m)",
+        "id": "126",
+        "name": "Magmar",
+        "species": "Spitfire Pokémon",
+        "stats": {
+            "attack": 95,
+            "defense": 57,
+            "hp": 65,
+            "sp.atk": 100,
+            "sp.def": 85,
+            "speed": 93,
+            "total": 495
+        },
+        "type": [
+            "Fire"
+        ],
+        "weight": "98.1 lbs (44.5 kg)"
+    },
+    {
+        "abilities": [
+            "Hyper Cutter",
+            "Mold Breaker",
+            "Moxie"
+        ],
+        "evolution": [],
+        "height": "4′11″ (1.50m)",
+        "id": "127",
+        "name": "Pinsir",
+        "species": "Stag Beetle Pokémon",
+        "stats": {
+            "attack": 125,
+            "defense": 100,
+            "hp": 65,
+            "sp.atk": 55,
+            "sp.def": 70,
+            "speed": 85,
+            "total": 500
+        },
+        "type": [
+            "Bug"
+        ],
+        "weight": "121.3 lbs (55.0 kg)"
+    },
+    {
+        "abilities": [
+            "Anger Point",
+            "Intimidate",
+            "Sheer Force"
+        ],
+        "evolution": [],
+        "height": "4′7″ (1.40m)",
+        "id": "128",
+        "name": "Tauros",
+        "species": "Wild Bull Pokémon",
+        "stats": {
+            "attack": 100,
+            "defense": 95,
+            "hp": 75,
+            "sp.atk": 40,
+            "sp.def": 70,
+            "speed": 110,
+            "total": 490
+        },
+        "type": [
+            "Normal"
+        ],
+        "weight": "194.9 lbs (88.4 kg)"
+    },
+    {
+        "abilities": [
+            "Swift Swim",
+            "Rattled"
+        ],
+        "evolution": [
+            "Magikarp",
+            "Gyarados"
+        ],
+        "height": "2′11″ (0.89m)",
+        "id": "129",
+        "name": "Magikarp",
+        "species": "Fish Pokémon",
+        "stats": {
+            "attack": 10,
+            "defense": 55,
+            "hp": 20,
+            "sp.atk": 15,
+            "sp.def": 20,
+            "speed": 80,
+            "total": 200
+        },
+        "type": [
+            "Water"
+        ],
+        "weight": "22 lbs (10.0 kg)"
+    },
+    {
+        "abilities": [
+            "Intimidate",
+            "Moxie"
+        ],
+        "evolution": [
+            "Magikarp",
+            "Gyarados"
+        ],
+        "height": "21′4″ (6.50m)",
+        "id": "130",
+        "name": "Gyarados",
+        "species": "Atrocious Pokémon",
+        "stats": {
+            "attack": 125,
+            "defense": 79,
+            "hp": 95,
+            "sp.atk": 60,
+            "sp.def": 100,
+            "speed": 81,
+            "total": 540
+        },
+        "type": [
+            "Water",
+            "Flying"
+        ],
+        "weight": "518.1 lbs (235.0 kg)"
+    },
+    {
+        "abilities": [
+            "Shell Armor",
+            "Water Absorb",
+            "Hydration"
+        ],
+        "evolution": [],
+        "height": "8′2″ (2.49m)",
+        "id": "131",
+        "name": "Lapras",
+        "species": "Transport Pokémon",
+        "stats": {
+            "attack": 85,
+            "defense": 80,
+            "hp": 130,
+            "sp.atk": 85,
+            "sp.def": 95,
+            "speed": 60,
+            "total": 535
+        },
+        "type": [
+            "Water",
+            "Ice"
+        ],
+        "weight": "485 lbs (220.0 kg)"
+    },
+    {
+        "abilities": [
+            "Limber",
+            "Imposter"
+        ],
+        "evolution": [],
+        "height": "1′0″ (0.30m)",
+        "id": "132",
+        "name": "Ditto",
+        "species": "Transform Pokémon",
+        "stats": {
+            "attack": 48,
+            "defense": 48,
+            "hp": 48,
+            "sp.atk": 48,
+            "sp.def": 48,
+            "speed": 48,
+            "total": 288
+        },
+        "type": [
+            "Normal"
+        ],
+        "weight": "8.8 lbs (4.0 kg)"
+    },
+    {
+        "abilities": [
+            "Adaptability",
+            "Run Away",
+            "Anticipation"
+        ],
+        "evolution": [
+            "Vaporeon",
+            "Jolteon",
+            "Flareon",
+            "Eevee"
+        ],
+        "height": "1′0″ (0.30m)",
+        "id": "133",
+        "name": "Eevee",
+        "species": "Evolution Pokémon",
+        "stats": {
+            "attack": 55,
+            "defense": 50,
+            "hp": 55,
+            "sp.atk": 45,
+            "sp.def": 65,
+            "speed": 55,
+            "total": 325
+        },
+        "type": [
+            "Normal"
+        ],
+        "weight": "14.3 lbs (6.5 kg)"
+    },
+    {
+        "abilities": [
+            "Water Absorb",
+            "Hydration"
+        ],
+        "evolution": [
+            "Vaporeon",
+            "Jolteon",
+            "Flareon",
+            "Eevee"
+        ],
+        "height": "3′3″ (0.99m)",
+        "id": "134",
+        "name": "Vaporeon",
+        "species": "Bubble Jet Pokémon",
+        "stats": {
+            "attack": 65,
+            "defense": 60,
+            "hp": 130,
+            "sp.atk": 110,
+            "sp.def": 95,
+            "speed": 65,
+            "total": 525
+        },
+        "type": [
+            "Water"
+        ],
+        "weight": "63.9 lbs (29.0 kg)"
+    },
+    {
+        "abilities": [
+            "Volt Absorb",
+            "Quick Feet"
+        ],
+        "evolution": [
+            "Vaporeon",
+            "Jolteon",
+            "Flareon",
+            "Eevee"
+        ],
+        "height": "2′7″ (0.79m)",
+        "id": "135",
+        "name": "Jolteon",
+        "species": "Lightning Pokémon",
+        "stats": {
+            "attack": 65,
+            "defense": 60,
+            "hp": 65,
+            "sp.atk": 110,
+            "sp.def": 95,
+            "speed": 130,
+            "total": 525
+        },
+        "type": [
+            "Electric"
+        ],
+        "weight": "54 lbs (24.5 kg)"
+    },
+    {
+        "abilities": [
+            "Flash Fire",
+            "Guts"
+        ],
+        "evolution": [
+            "Vaporeon",
+            "Jolteon",
+            "Flareon",
+            "Eevee"
+        ],
+        "height": "2′11″ (0.89m)",
+        "id": "136",
+        "name": "Flareon",
+        "species": "Flame Pokémon",
+        "stats": {
+            "attack": 130,
+            "defense": 60,
+            "hp": 65,
+            "sp.atk": 95,
+            "sp.def": 110,
+            "speed": 65,
+            "total": 525
+        },
+        "type": [
+            "Fire"
+        ],
+        "weight": "55.1 lbs (25.0 kg)"
+    },
+    {
+        "abilities": [
+            "Download",
+            "Trace",
+            "Analytic"
+        ],
+        "evolution": [
+            "Porygon"
+        ],
+        "height": "2′7″ (0.79m)",
+        "id": "137",
+        "name": "Porygon",
+        "species": "Virtual Pokémon",
+        "stats": {
+            "attack": 60,
+            "defense": 70,
+            "hp": 65,
+            "sp.atk": 85,
+            "sp.def": 75,
+            "speed": 40,
+            "total": 395
+        },
+        "type": [
+            "Normal"
+        ],
+        "weight": "80.5 lbs (36.5 kg)"
+    },
+    {
+        "abilities": [
+            "Shell Armor",
+            "Swift Swim",
+            "Weak Armor"
+        ],
+        "evolution": [
+            "Omanyte",
+            "Omastar"
+        ],
+        "height": "1′4″ (0.41m)",
+        "id": "138",
+        "name": "Omanyte",
+        "species": "Spiral Pokémon",
+        "stats": {
+            "attack": 40,
+            "defense": 100,
+            "hp": 35,
+            "sp.atk": 90,
+            "sp.def": 55,
+            "speed": 35,
+            "total": 355
+        },
+        "type": [
+            "Rock",
+            "Water"
+        ],
+        "weight": "16.5 lbs (7.5 kg)"
+    },
+    {
+        "abilities": [
+            "Shell Armor",
+            "Swift Swim",
+            "Weak Armor"
+        ],
+        "evolution": [
+            "Omanyte",
+            "Omastar"
+        ],
+        "height": "3′3″ (0.99m)",
+        "id": "139",
+        "name": "Omastar",
+        "species": "Spiral Pokémon",
+        "stats": {
+            "attack": 60,
+            "defense": 125,
+            "hp": 70,
+            "sp.atk": 115,
+            "sp.def": 70,
+            "speed": 55,
+            "total": 495
+        },
+        "type": [
+            "Rock",
+            "Water"
+        ],
+        "weight": "77.2 lbs (35.0 kg)"
+    },
+    {
+        "abilities": [
+            "Battle Armor",
+            "Swift Swim",
+            "Weak Armor"
+        ],
+        "evolution": [
+            "Kabuto",
+            "Kabutops"
+        ],
+        "height": "1′8″ (0.51m)",
+        "id": "140",
+        "name": "Kabuto",
+        "species": "Shellfish Pokémon",
+        "stats": {
+            "attack": 80,
+            "defense": 90,
+            "hp": 30,
+            "sp.atk": 55,
+            "sp.def": 45,
+            "speed": 55,
+            "total": 355
+        },
+        "type": [
+            "Rock",
+            "Water"
+        ],
+        "weight": "25.4 lbs (11.5 kg)"
+    },
+    {
+        "abilities": [
+            "Battle Armor",
+            "Swift Swim",
+            "Weak Armor"
+        ],
+        "evolution": [
+            "Kabuto",
+            "Kabutops"
+        ],
+        "height": "4′3″ (1.30m)",
+        "id": "141",
+        "name": "Kabutops",
+        "species": "Shellfish Pokémon",
+        "stats": {
+            "attack": 115,
+            "defense": 105,
+            "hp": 60,
+            "sp.atk": 65,
+            "sp.def": 70,
+            "speed": 80,
+            "total": 495
+        },
+        "type": [
+            "Rock",
+            "Water"
+        ],
+        "weight": "89.3 lbs (40.5 kg)"
+    },
+    {
+        "abilities": [
+            "Pressure",
+            "Rock Head",
+            "Unnerve"
+        ],
+        "evolution": [],
+        "height": "5′11″ (1.80m)",
+        "id": "142",
+        "name": "Aerodactyl",
+        "species": "Fossil Pokémon",
+        "stats": {
+            "attack": 105,
+            "defense": 65,
+            "hp": 80,
+            "sp.atk": 60,
+            "sp.def": 75,
+            "speed": 130,
+            "total": 515
+        },
+        "type": [
+            "Rock",
+            "Flying"
+        ],
+        "weight": "130.1 lbs (59.0 kg)"
+    },
+    {
+        "abilities": [
+            "Immunity",
+            "Thick Fat",
+            "Gluttony"
+        ],
+        "evolution": [
+            "Snorlax"
+        ],
+        "height": "6′11″ (2.11m)",
+        "id": "143",
+        "name": "Snorlax",
+        "species": "Sleeping Pokémon",
+        "stats": {
+            "attack": 110,
+            "defense": 65,
+            "hp": 160,
+            "sp.atk": 65,
+            "sp.def": 110,
+            "speed": 30,
+            "total": 540
+        },
+        "type": [
+            "Normal"
+        ],
+        "weight": "1014.1 lbs (460.0 kg)"
+    },
+    {
+        "abilities": [
+            "Pressure",
+            "Snow Cloak"
+        ],
+        "evolution": [],
+        "height": "5′7″ (1.70m)",
+        "id": "144",
+        "name": "Articuno",
+        "species": "Freeze Pokémon",
+        "stats": {
+            "attack": 85,
+            "defense": 100,
+            "hp": 90,
+            "sp.atk": 95,
+            "sp.def": 125,
+            "speed": 85,
+            "total": 580
+        },
+        "type": [
+            "Ice",
+            "Flying"
+        ],
+        "weight": "122.1 lbs (55.4 kg)"
+    },
+    {
+        "abilities": [
+            "Pressure",
+            "Lightning Rod"
+        ],
+        "evolution": [],
+        "height": "5′3″ (1.60m)",
+        "id": "145",
+        "name": "Zapdos",
+        "species": "Electric Pokémon",
+        "stats": {
+            "attack": 90,
+            "defense": 85,
+            "hp": 90,
+            "sp.atk": 125,
+            "sp.def": 90,
+            "speed": 100,
+            "total": 580
+        },
+        "type": [
+            "Electric",
+            "Flying"
+        ],
+        "weight": "116 lbs (52.6 kg)"
+    },
+    {
+        "abilities": [
+            "Pressure",
+            "Flame Body"
+        ],
+        "evolution": [],
+        "height": "6′7″ (2.01m)",
+        "id": "146",
+        "name": "Moltres",
+        "species": "Flame Pokémon",
+        "stats": {
+            "attack": 100,
+            "defense": 90,
+            "hp": 90,
+            "sp.atk": 125,
+            "sp.def": 85,
+            "speed": 90,
+            "total": 580
+        },
+        "type": [
+            "Fire",
+            "Flying"
+        ],
+        "weight": "132.3 lbs (60.0 kg)"
+    },
+    {
+        "abilities": [
+            "Shed Skin",
+            "Marvel Scale"
+        ],
+        "evolution": [
+            "Dratini",
+            "Dragonair",
+            "Dragonite"
+        ],
+        "height": "5′11″ (1.80m)",
+        "id": "147",
+        "name": "Dratini",
+        "species": "Dragon Pokémon",
+        "stats": {
+            "attack": 64,
+            "defense": 45,
+            "hp": 41,
+            "sp.atk": 50,
+            "sp.def": 50,
+            "speed": 50,
+            "total": 300
+        },
+        "type": [
+            "Dragon"
+        ],
+        "weight": "7.3 lbs (3.3 kg)"
+    },
+    {
+        "abilities": [
+            "Shed Skin",
+            "Marvel Scale"
+        ],
+        "evolution": [
+            "Dratini",
+            "Dragonair",
+            "Dragonite"
+        ],
+        "height": "13′1″ (3.99m)",
+        "id": "148",
+        "name": "Dragonair",
+        "species": "Dragon Pokémon",
+        "stats": {
+            "attack": 84,
+            "defense": 65,
+            "hp": 61,
+            "sp.atk": 70,
+            "sp.def": 70,
+            "speed": 70,
+            "total": 420
+        },
+        "type": [
+            "Dragon"
+        ],
+        "weight": "36.4 lbs (16.5 kg)"
+    },
+    {
+        "abilities": [
+            "Inner Focus",
+            "Multiscale"
+        ],
+        "evolution": [
+            "Dratini",
+            "Dragonair",
+            "Dragonite"
+        ],
+        "height": "7′3″ (2.21m)",
+        "id": "149",
+        "name": "Dragonite",
+        "species": "Dragon Pokémon",
+        "stats": {
+            "attack": 134,
+            "defense": 95,
+            "hp": 91,
+            "sp.atk": 100,
+            "sp.def": 100,
+            "speed": 80,
+            "total": 600
+        },
+        "type": [
+            "Dragon",
+            "Flying"
+        ],
+        "weight": "463 lbs (210.0 kg)"
+    },
+    {
+        "abilities": [
+            "Pressure",
+            "Unnerve"
+        ],
+        "evolution": [],
+        "height": "6′7″ (2.01m)",
+        "id": "150",
+        "name": "Mewtwo",
+        "species": "Genetic Pokémon",
+        "stats": {
+            "attack": 110,
+            "defense": 90,
+            "hp": 106,
+            "sp.atk": 154,
+            "sp.def": 90,
+            "speed": 130,
+            "total": 680
+        },
+        "type": [
+            "Psychic"
+        ],
+        "weight": "269 lbs (122.0 kg)"
+    },
+    {
+        "abilities": [
+            "Synchronize"
+        ],
+        "evolution": [],
+        "height": "1′4″ (0.41m)",
+        "id": "151",
+        "name": "Mew",
+        "species": "New Species Pokémon",
+        "stats": {
+            "attack": 100,
+            "defense": 100,
+            "hp": 100,
+            "sp.atk": 100,
+            "sp.def": 100,
+            "speed": 100,
+            "total": 600
+        },
+        "type": [
+            "Psychic"
+        ],
+        "weight": "8.8 lbs (4.0 kg)"
+    }
+]

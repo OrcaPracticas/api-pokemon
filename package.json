@@ -1,0 +1,38 @@
+{
+    "author": "Jorge Méndez Ortega <jorge.mendez.ortega@gmail.com>",
+    "dependencies": {
+        "cli-color": "2.0.0",
+        "compress": "0.99.0",
+        "cors": "2.8.5",
+        "express": "4.17.1",
+        "helmet": "3.21.3"
+    },
+    "description": "Creando una api de lo primeros 150 pokemons, se integrara con heroku",
+    "devDependencies": {
+        "@babel/cli": "7.8.4",
+        "@babel/core": "7.8.6",
+        "@babel/preset-env": "7.8.6",
+        "@babel/register": "7.8.6",
+        "babel-plugin-inline-json-import": "0.3.2",
+        "babel-plugin-module-resolver": "4.0.0",
+        "nodemon": "2.0.2"
+    },
+    "keywords": [
+        "expressjs",
+        "api",
+        "pokemons"
+    ],
+    "license": "MIT",
+    "main": "run_server.js",
+    "name": "api-pokemon",
+    "private": false,
+    "repository": {
+        "type": "git",
+        "url": "git@GitHub:OrcaPracticas/api-pokemon.git"
+    },
+    "scripts": {
+        "dev": "nodemon .",
+        "start": "node ."
+    },
+    "version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+    "presets": [
+        "@babel/preset-env"
+    ],
+    "plugins": [
+        "inline-json-import",
+        [
+            "module-resolver",
+            {
+                "alias": {
+                    "Api": "./app/commons/",
+                    "ApiDB": "./db/DataBase.json"
+                }
+            }
+        ]
+    ]
+}

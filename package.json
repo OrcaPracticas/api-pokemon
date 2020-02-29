@@ -24,7 +24,7 @@
         "pokemons"
     ],
     "license": "MIT",
-    "main": "run_server.js",
+    "main": "/build/Serve.js",
     "name": "api-pokemon",
     "private": false,
     "repository": {
@@ -32,8 +32,9 @@
         "url": "git@GitHub:OrcaPracticas/api-pokemon.git"
     },
     "scripts": {
-        "dev": "export NODE_ENV=develop; nodemon .",
-        "start": "node ."
+        "build": "babel  ./app/src/ -d ./build/",
+        "dev": "export NODE_ENV=develop; nodemon ./run_server.js",
+        "start": "node ./build/Server.js"
     },
     "version": "1.0.0"
 }

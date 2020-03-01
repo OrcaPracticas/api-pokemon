@@ -22,7 +22,7 @@
             "speed": 45,
             "total": 318
         },
-        "type": [
+        "types": [
             "Grass",
             "Poison"
         ],
@@ -51,7 +51,7 @@
             "speed": 60,
             "total": 405
         },
-        "type": [
+        "types": [
             "Grass",
             "Poison"
         ],
@@ -80,7 +80,7 @@
             "speed": 80,
             "total": 525
         },
-        "type": [
+        "types": [
             "Grass",
             "Poison"
         ],
@@ -109,7 +109,7 @@
             "speed": 65,
             "total": 309
         },
-        "type": [
+        "types": [
             "Fire"
         ],
         "weight": "18.7 lbs (8.5 kg)"
@@ -137,7 +137,7 @@
             "speed": 80,
             "total": 405
         },
-        "type": [
+        "types": [
             "Fire"
         ],
         "weight": "41.9 lbs (19.0 kg)"
@@ -165,7 +165,7 @@
             "speed": 100,
             "total": 534
         },
-        "type": [
+        "types": [
             "Fire",
             "Flying"
         ],
@@ -194,7 +194,7 @@
             "speed": 43,
             "total": 314
         },
-        "type": [
+        "types": [
             "Water"
         ],
         "weight": "19.8 lbs (9.0 kg)"
@@ -222,7 +222,7 @@
             "speed": 58,
             "total": 405
         },
-        "type": [
+        "types": [
             "Water"
         ],
         "weight": "49.6 lbs (22.5 kg)"
@@ -250,7 +250,7 @@
             "speed": 78,
             "total": 530
         },
-        "type": [
+        "types": [
             "Water"
         ],
         "weight": "188.5 lbs (85.5 kg)"
@@ -278,7 +278,7 @@
             "speed": 45,
             "total": 195
         },
-        "type": [
+        "types": [
             "Bug"
         ],
         "weight": "6.4 lbs (2.9 kg)"
@@ -305,7 +305,7 @@
             "speed": 30,
             "total": 205
         },
-        "type": [
+        "types": [
             "Bug"
         ],
         "weight": "21.8 lbs (9.9 kg)"
@@ -333,7 +333,7 @@
             "speed": 70,
             "total": 395
         },
-        "type": [
+        "types": [
             "Bug",
             "Flying"
         ],
@@ -362,7 +362,7 @@
             "speed": 50,
             "total": 195
         },
-        "type": [
+        "types": [
             "Bug",
             "Poison"
         ],
@@ -390,7 +390,7 @@
             "speed": 35,
             "total": 205
         },
-        "type": [
+        "types": [
             "Bug",
             "Poison"
         ],
@@ -419,7 +419,7 @@
             "speed": 75,
             "total": 395
         },
-        "type": [
+        "types": [
             "Bug",
             "Poison"
         ],
@@ -449,7 +449,7 @@
             "speed": 56,
             "total": 251
         },
-        "type": [
+        "types": [
             "Normal",
             "Flying"
         ],
@@ -479,7 +479,7 @@
             "speed": 71,
             "total": 349
         },
-        "type": [
+        "types": [
             "Normal",
             "Flying"
         ],
@@ -509,7 +509,7 @@
             "speed": 101,
             "total": 479
         },
-        "type": [
+        "types": [
             "Normal",
             "Flying"
         ],
@@ -538,7 +538,7 @@
             "speed": 72,
             "total": 253
         },
-        "type": [
+        "types": [
             "Normal"
         ],
         "weight": "7.7 lbs (3.5 kg)"
@@ -566,7 +566,7 @@
             "speed": 97,
             "total": 413
         },
-        "type": [
+        "types": [
             "Normal"
         ],
         "weight": "40.8 lbs (18.5 kg)"
@@ -593,7 +593,7 @@
             "speed": 70,
             "total": 262
         },
-        "type": [
+        "types": [
             "Normal",
             "Flying"
         ],
@@ -621,7 +621,7 @@
             "speed": 100,
             "total": 442
         },
-        "type": [
+        "types": [
             "Normal",
             "Flying"
         ],
@@ -650,7 +650,7 @@
             "speed": 55,
             "total": 288
         },
-        "type": [
+        "types": [
             "Poison"
         ],
         "weight": "15.2 lbs (6.9 kg)"
@@ -678,7 +678,7 @@
             "speed": 80,
             "total": 438
         },
-        "type": [
+        "types": [
             "Poison"
         ],
         "weight": "143.3 lbs (65.0 kg)"
@@ -705,7 +705,7 @@
             "speed": 90,
             "total": 320
         },
-        "type": [
+        "types": [
             "Electric"
         ],
         "weight": "13.2 lbs (6.0 kg)"
@@ -732,7 +732,7 @@
             "speed": 110,
             "total": 485
         },
-        "type": [
+        "types": [
             "Electric"
         ],
         "weight": "66.1 lbs (30.0 kg)"
@@ -759,7 +759,7 @@
             "speed": 40,
             "total": 300
         },
-        "type": [
+        "types": [
             "Ground"
         ],
         "weight": "26.5 lbs (12.0 kg)"
@@ -786,7 +786,7 @@
             "speed": 65,
             "total": 450
         },
-        "type": [
+        "types": [
             "Ground"
         ],
         "weight": "65 lbs (29.5 kg)"
@@ -815,7 +815,7 @@
             "speed": 41,
             "total": 275
         },
-        "type": [
+        "types": [
             "Poison"
         ],
         "weight": "15.4 lbs (7.0 kg)"
@@ -844,7 +844,7 @@
             "speed": 56,
             "total": 365
         },
-        "type": [
+        "types": [
             "Poison"
         ],
         "weight": "44.1 lbs (20.0 kg)"
@@ -873,7 +873,7 @@
             "speed": 76,
             "total": 505
         },
-        "type": [
+        "types": [
             "Poison",
             "Ground"
         ],
@@ -903,7 +903,7 @@
             "speed": 50,
             "total": 273
         },
-        "type": [
+        "types": [
             "Poison"
         ],
         "weight": "19.8 lbs (9.0 kg)"
@@ -932,7 +932,7 @@
             "speed": 65,
             "total": 365
         },
-        "type": [
+        "types": [
             "Poison"
         ],
         "weight": "43 lbs (19.5 kg)"
@@ -961,7 +961,7 @@
             "speed": 85,
             "total": 505
         },
-        "type": [
+        "types": [
             "Poison",
             "Ground"
         ],
@@ -991,7 +991,7 @@
             "speed": 35,
             "total": 323
         },
-        "type": [
+        "types": [
             "Fairy"
         ],
         "weight": "16.5 lbs (7.5 kg)"
@@ -1020,7 +1020,7 @@
             "speed": 60,
             "total": 483
         },
-        "type": [
+        "types": [
             "Fairy"
         ],
         "weight": "88.2 lbs (40.0 kg)"
@@ -1047,7 +1047,7 @@
             "speed": 65,
             "total": 299
         },
-        "type": [
+        "types": [
             "Fire"
         ],
         "weight": "21.8 lbs (9.9 kg)"
@@ -1074,7 +1074,7 @@
             "speed": 100,
             "total": 505
         },
-        "type": [
+        "types": [
             "Fire"
         ],
         "weight": "43.9 lbs (19.9 kg)"
@@ -1102,7 +1102,7 @@
             "speed": 20,
             "total": 270
         },
-        "type": [
+        "types": [
             "Normal",
             "Fairy"
         ],
@@ -1131,7 +1131,7 @@
             "speed": 45,
             "total": 435
         },
-        "type": [
+        "types": [
             "Normal",
             "Fairy"
         ],
@@ -1160,7 +1160,7 @@
             "speed": 55,
             "total": 245
         },
-        "type": [
+        "types": [
             "Poison",
             "Flying"
         ],
@@ -1189,7 +1189,7 @@
             "speed": 90,
             "total": 455
         },
-        "type": [
+        "types": [
             "Poison",
             "Flying"
         ],
@@ -1218,7 +1218,7 @@
             "speed": 30,
             "total": 320
         },
-        "type": [
+        "types": [
             "Grass",
             "Poison"
         ],
@@ -1247,7 +1247,7 @@
             "speed": 40,
             "total": 395
         },
-        "type": [
+        "types": [
             "Grass",
             "Poison"
         ],
@@ -1276,7 +1276,7 @@
             "speed": 50,
             "total": 490
         },
-        "type": [
+        "types": [
             "Grass",
             "Poison"
         ],
@@ -1305,7 +1305,7 @@
             "speed": 25,
             "total": 285
         },
-        "type": [
+        "types": [
             "Bug",
             "Grass"
         ],
@@ -1334,7 +1334,7 @@
             "speed": 30,
             "total": 405
         },
-        "type": [
+        "types": [
             "Bug",
             "Grass"
         ],
@@ -1363,7 +1363,7 @@
             "speed": 45,
             "total": 305
         },
-        "type": [
+        "types": [
             "Bug",
             "Poison"
         ],
@@ -1392,7 +1392,7 @@
             "speed": 90,
             "total": 450
         },
-        "type": [
+        "types": [
             "Bug",
             "Poison"
         ],
@@ -1421,7 +1421,7 @@
             "speed": 95,
             "total": 265
         },
-        "type": [
+        "types": [
             "Ground"
         ],
         "weight": "1.8 lbs (0.8 kg)"
@@ -1449,7 +1449,7 @@
             "speed": 120,
             "total": 405
         },
-        "type": [
+        "types": [
             "Ground"
         ],
         "weight": "73.4 lbs (33.3 kg)"
@@ -1477,7 +1477,7 @@
             "speed": 90,
             "total": 290
         },
-        "type": [
+        "types": [
             "Normal"
         ],
         "weight": "9.3 lbs (4.2 kg)"
@@ -1505,7 +1505,7 @@
             "speed": 115,
             "total": 440
         },
-        "type": [
+        "types": [
             "Normal"
         ],
         "weight": "70.5 lbs (32.0 kg)"
@@ -1533,7 +1533,7 @@
             "speed": 55,
             "total": 320
         },
-        "type": [
+        "types": [
             "Water"
         ],
         "weight": "43.2 lbs (19.6 kg)"
@@ -1561,7 +1561,7 @@
             "speed": 85,
             "total": 500
         },
-        "type": [
+        "types": [
             "Water"
         ],
         "weight": "168.9 lbs (76.6 kg)"
@@ -1589,7 +1589,7 @@
             "speed": 70,
             "total": 305
         },
-        "type": [
+        "types": [
             "Fighting"
         ],
         "weight": "61.7 lbs (28.0 kg)"
@@ -1617,7 +1617,7 @@
             "speed": 95,
             "total": 455
         },
-        "type": [
+        "types": [
             "Fighting"
         ],
         "weight": "70.5 lbs (32.0 kg)"
@@ -1645,7 +1645,7 @@
             "speed": 60,
             "total": 350
         },
-        "type": [
+        "types": [
             "Fire"
         ],
         "weight": "41.9 lbs (19.0 kg)"
@@ -1673,7 +1673,7 @@
             "speed": 95,
             "total": 555
         },
-        "type": [
+        "types": [
             "Fire"
         ],
         "weight": "341.7 lbs (155.0 kg)"
@@ -1702,7 +1702,7 @@
             "speed": 90,
             "total": 300
         },
-        "type": [
+        "types": [
             "Water"
         ],
         "weight": "27.3 lbs (12.4 kg)"
@@ -1731,7 +1731,7 @@
             "speed": 90,
             "total": 385
         },
-        "type": [
+        "types": [
             "Water"
         ],
         "weight": "44.1 lbs (20.0 kg)"
@@ -1760,7 +1760,7 @@
             "speed": 70,
             "total": 510
         },
-        "type": [
+        "types": [
             "Water",
             "Fighting"
         ],
@@ -1790,7 +1790,7 @@
             "speed": 90,
             "total": 310
         },
-        "type": [
+        "types": [
             "Psychic"
         ],
         "weight": "43 lbs (19.5 kg)"
@@ -1819,7 +1819,7 @@
             "speed": 105,
             "total": 400
         },
-        "type": [
+        "types": [
             "Psychic"
         ],
         "weight": "124.6 lbs (56.5 kg)"
@@ -1848,7 +1848,7 @@
             "speed": 120,
             "total": 500
         },
-        "type": [
+        "types": [
             "Psychic"
         ],
         "weight": "105.8 lbs (48.0 kg)"
@@ -1877,7 +1877,7 @@
             "speed": 35,
             "total": 305
         },
-        "type": [
+        "types": [
             "Fighting"
         ],
         "weight": "43 lbs (19.5 kg)"
@@ -1906,7 +1906,7 @@
             "speed": 45,
             "total": 405
         },
-        "type": [
+        "types": [
             "Fighting"
         ],
         "weight": "155.4 lbs (70.5 kg)"
@@ -1935,7 +1935,7 @@
             "speed": 55,
             "total": 505
         },
-        "type": [
+        "types": [
             "Fighting"
         ],
         "weight": "286.6 lbs (130.0 kg)"
@@ -1963,7 +1963,7 @@
             "speed": 40,
             "total": 300
         },
-        "type": [
+        "types": [
             "Grass",
             "Poison"
         ],
@@ -1992,7 +1992,7 @@
             "speed": 55,
             "total": 390
         },
-        "type": [
+        "types": [
             "Grass",
             "Poison"
         ],
@@ -2021,7 +2021,7 @@
             "speed": 70,
             "total": 490
         },
-        "type": [
+        "types": [
             "Grass",
             "Poison"
         ],
@@ -2050,7 +2050,7 @@
             "speed": 70,
             "total": 335
         },
-        "type": [
+        "types": [
             "Water",
             "Poison"
         ],
@@ -2079,7 +2079,7 @@
             "speed": 100,
             "total": 515
         },
-        "type": [
+        "types": [
             "Water",
             "Poison"
         ],
@@ -2109,7 +2109,7 @@
             "speed": 20,
             "total": 300
         },
-        "type": [
+        "types": [
             "Rock",
             "Ground"
         ],
@@ -2139,7 +2139,7 @@
             "speed": 35,
             "total": 390
         },
-        "type": [
+        "types": [
             "Rock",
             "Ground"
         ],
@@ -2169,7 +2169,7 @@
             "speed": 45,
             "total": 495
         },
-        "type": [
+        "types": [
             "Rock",
             "Ground"
         ],
@@ -2198,7 +2198,7 @@
             "speed": 90,
             "total": 410
         },
-        "type": [
+        "types": [
             "Fire"
         ],
         "weight": "66.1 lbs (30.0 kg)"
@@ -2226,7 +2226,7 @@
             "speed": 105,
             "total": 500
         },
-        "type": [
+        "types": [
             "Fire"
         ],
         "weight": "209.4 lbs (95.0 kg)"
@@ -2254,7 +2254,7 @@
             "speed": 15,
             "total": 315
         },
-        "type": [
+        "types": [
             "Water",
             "Psychic"
         ],
@@ -2283,7 +2283,7 @@
             "speed": 30,
             "total": 490
         },
-        "type": [
+        "types": [
             "Water",
             "Psychic"
         ],
@@ -2312,7 +2312,7 @@
             "speed": 45,
             "total": 325
         },
-        "type": [
+        "types": [
             "Electric",
             "Steel"
         ],
@@ -2341,7 +2341,7 @@
             "speed": 70,
             "total": 465
         },
-        "type": [
+        "types": [
             "Electric",
             "Steel"
         ],
@@ -2367,7 +2367,7 @@
             "speed": 60,
             "total": 352
         },
-        "type": [
+        "types": [
             "Normal",
             "Flying"
         ],
@@ -2396,7 +2396,7 @@
             "speed": 75,
             "total": 310
         },
-        "type": [
+        "types": [
             "Normal",
             "Flying"
         ],
@@ -2425,7 +2425,7 @@
             "speed": 100,
             "total": 460
         },
-        "type": [
+        "types": [
             "Normal",
             "Flying"
         ],
@@ -2454,7 +2454,7 @@
             "speed": 45,
             "total": 325
         },
-        "type": [
+        "types": [
             "Water"
         ],
         "weight": "198.4 lbs (90.0 kg)"
@@ -2482,7 +2482,7 @@
             "speed": 70,
             "total": 475
         },
-        "type": [
+        "types": [
             "Water",
             "Ice"
         ],
@@ -2511,7 +2511,7 @@
             "speed": 25,
             "total": 325
         },
-        "type": [
+        "types": [
             "Poison"
         ],
         "weight": "66.1 lbs (30.0 kg)"
@@ -2539,7 +2539,7 @@
             "speed": 50,
             "total": 500
         },
-        "type": [
+        "types": [
             "Poison"
         ],
         "weight": "66.1 lbs (30.0 kg)"
@@ -2567,7 +2567,7 @@
             "speed": 40,
             "total": 305
         },
-        "type": [
+        "types": [
             "Water"
         ],
         "weight": "8.8 lbs (4.0 kg)"
@@ -2595,7 +2595,7 @@
             "speed": 70,
             "total": 525
         },
-        "type": [
+        "types": [
             "Water",
             "Ice"
         ],
@@ -2623,7 +2623,7 @@
             "speed": 80,
             "total": 310
         },
-        "type": [
+        "types": [
             "Ghost",
             "Poison"
         ],
@@ -2651,7 +2651,7 @@
             "speed": 95,
             "total": 405
         },
-        "type": [
+        "types": [
             "Ghost",
             "Poison"
         ],
@@ -2679,7 +2679,7 @@
             "speed": 110,
             "total": 500
         },
-        "type": [
+        "types": [
             "Ghost",
             "Poison"
         ],
@@ -2707,7 +2707,7 @@
             "speed": 70,
             "total": 385
         },
-        "type": [
+        "types": [
             "Rock",
             "Ground"
         ],
@@ -2736,7 +2736,7 @@
             "speed": 42,
             "total": 328
         },
-        "type": [
+        "types": [
             "Psychic"
         ],
         "weight": "71.4 lbs (32.4 kg)"
@@ -2764,7 +2764,7 @@
             "speed": 67,
             "total": 483
         },
-        "type": [
+        "types": [
             "Psychic"
         ],
         "weight": "166.7 lbs (75.6 kg)"
@@ -2792,7 +2792,7 @@
             "speed": 50,
             "total": 325
         },
-        "type": [
+        "types": [
             "Water"
         ],
         "weight": "14.3 lbs (6.5 kg)"
@@ -2820,7 +2820,7 @@
             "speed": 75,
             "total": 475
         },
-        "type": [
+        "types": [
             "Water"
         ],
         "weight": "132.3 lbs (60.0 kg)"
@@ -2848,7 +2848,7 @@
             "speed": 100,
             "total": 330
         },
-        "type": [
+        "types": [
             "Electric"
         ],
         "weight": "22.9 lbs (10.4 kg)"
@@ -2876,7 +2876,7 @@
             "speed": 140,
             "total": 480
         },
-        "type": [
+        "types": [
             "Electric"
         ],
         "weight": "146.8 lbs (66.6 kg)"
@@ -2903,7 +2903,7 @@
             "speed": 40,
             "total": 325
         },
-        "type": [
+        "types": [
             "Grass",
             "Psychic"
         ],
@@ -2931,7 +2931,7 @@
             "speed": 55,
             "total": 520
         },
-        "type": [
+        "types": [
             "Grass",
             "Psychic"
         ],
@@ -2960,7 +2960,7 @@
             "speed": 35,
             "total": 320
         },
-        "type": [
+        "types": [
             "Ground"
         ],
         "weight": "14.3 lbs (6.5 kg)"
@@ -2988,7 +2988,7 @@
             "speed": 45,
             "total": 425
         },
-        "type": [
+        "types": [
             "Ground"
         ],
         "weight": "99.2 lbs (45.0 kg)"
@@ -3016,7 +3016,7 @@
             "speed": 87,
             "total": 455
         },
-        "type": [
+        "types": [
             "Fighting"
         ],
         "weight": "109.8 lbs (49.8 kg)"
@@ -3044,7 +3044,7 @@
             "speed": 76,
             "total": 455
         },
-        "type": [
+        "types": [
             "Fighting"
         ],
         "weight": "110.7 lbs (50.2 kg)"
@@ -3071,7 +3071,7 @@
             "speed": 30,
             "total": 385
         },
-        "type": [
+        "types": [
             "Normal"
         ],
         "weight": "144.4 lbs (65.5 kg)"
@@ -3097,7 +3097,7 @@
             "speed": 35,
             "total": 340
         },
-        "type": [
+        "types": [
             "Poison"
         ],
         "weight": "2.2 lbs (1.0 kg)"
@@ -3123,7 +3123,7 @@
             "speed": 60,
             "total": 490
         },
-        "type": [
+        "types": [
             "Poison"
         ],
         "weight": "20.9 lbs (9.5 kg)"
@@ -3151,7 +3151,7 @@
             "speed": 25,
             "total": 345
         },
-        "type": [
+        "types": [
             "Ground",
             "Rock"
         ],
@@ -3180,7 +3180,7 @@
             "speed": 40,
             "total": 485
         },
-        "type": [
+        "types": [
             "Ground",
             "Rock"
         ],
@@ -3208,7 +3208,7 @@
             "speed": 50,
             "total": 450
         },
-        "type": [
+        "types": [
             "Normal"
         ],
         "weight": "76.3 lbs (34.6 kg)"
@@ -3235,7 +3235,7 @@
             "speed": 60,
             "total": 435
         },
-        "type": [
+        "types": [
             "Grass"
         ],
         "weight": "77.2 lbs (35.0 kg)"
@@ -3260,7 +3260,7 @@
             "speed": 90,
             "total": 490
         },
-        "type": [
+        "types": [
             "Normal"
         ],
         "weight": "176.4 lbs (80.0 kg)"
@@ -3288,7 +3288,7 @@
             "speed": 60,
             "total": 295
         },
-        "type": [
+        "types": [
             "Water"
         ],
         "weight": "17.6 lbs (8.0 kg)"
@@ -3316,7 +3316,7 @@
             "speed": 85,
             "total": 440
         },
-        "type": [
+        "types": [
             "Water"
         ],
         "weight": "55.1 lbs (25.0 kg)"
@@ -3344,7 +3344,7 @@
             "speed": 63,
             "total": 320
         },
-        "type": [
+        "types": [
             "Water"
         ],
         "weight": "33.1 lbs (15.0 kg)"
@@ -3372,7 +3372,7 @@
             "speed": 68,
             "total": 450
         },
-        "type": [
+        "types": [
             "Water"
         ],
         "weight": "86 lbs (39.0 kg)"
@@ -3400,7 +3400,7 @@
             "speed": 85,
             "total": 340
         },
-        "type": [
+        "types": [
             "Water"
         ],
         "weight": "76.1 lbs (34.5 kg)"
@@ -3428,7 +3428,7 @@
             "speed": 115,
             "total": 520
         },
-        "type": [
+        "types": [
             "Water",
             "Psychic"
         ],
@@ -3456,7 +3456,7 @@
             "speed": 90,
             "total": 460
         },
-        "type": [
+        "types": [
             "Psychic",
             "Fairy"
         ],
@@ -3484,7 +3484,7 @@
             "speed": 105,
             "total": 500
         },
-        "type": [
+        "types": [
             "Bug",
             "Flying"
         ],
@@ -3512,7 +3512,7 @@
             "speed": 95,
             "total": 455
         },
-        "type": [
+        "types": [
             "Ice",
             "Psychic"
         ],
@@ -3539,7 +3539,7 @@
             "speed": 105,
             "total": 490
         },
-        "type": [
+        "types": [
             "Electric"
         ],
         "weight": "66.1 lbs (30.0 kg)"
@@ -3565,7 +3565,7 @@
             "speed": 93,
             "total": 495
         },
-        "type": [
+        "types": [
             "Fire"
         ],
         "weight": "98.1 lbs (44.5 kg)"
@@ -3590,7 +3590,7 @@
             "speed": 85,
             "total": 500
         },
-        "type": [
+        "types": [
             "Bug"
         ],
         "weight": "121.3 lbs (55.0 kg)"
@@ -3615,7 +3615,7 @@
             "speed": 110,
             "total": 490
         },
-        "type": [
+        "types": [
             "Normal"
         ],
         "weight": "194.9 lbs (88.4 kg)"
@@ -3642,7 +3642,7 @@
             "speed": 80,
             "total": 200
         },
-        "type": [
+        "types": [
             "Water"
         ],
         "weight": "22 lbs (10.0 kg)"
@@ -3669,7 +3669,7 @@
             "speed": 81,
             "total": 540
         },
-        "type": [
+        "types": [
             "Water",
             "Flying"
         ],
@@ -3695,7 +3695,7 @@
             "speed": 60,
             "total": 535
         },
-        "type": [
+        "types": [
             "Water",
             "Ice"
         ],
@@ -3720,7 +3720,7 @@
             "speed": 48,
             "total": 288
         },
-        "type": [
+        "types": [
             "Normal"
         ],
         "weight": "8.8 lbs (4.0 kg)"
@@ -3750,7 +3750,7 @@
             "speed": 55,
             "total": 325
         },
-        "type": [
+        "types": [
             "Normal"
         ],
         "weight": "14.3 lbs (6.5 kg)"
@@ -3779,7 +3779,7 @@
             "speed": 65,
             "total": 525
         },
-        "type": [
+        "types": [
             "Water"
         ],
         "weight": "63.9 lbs (29.0 kg)"
@@ -3808,7 +3808,7 @@
             "speed": 130,
             "total": 525
         },
-        "type": [
+        "types": [
             "Electric"
         ],
         "weight": "54 lbs (24.5 kg)"
@@ -3837,7 +3837,7 @@
             "speed": 65,
             "total": 525
         },
-        "type": [
+        "types": [
             "Fire"
         ],
         "weight": "55.1 lbs (25.0 kg)"
@@ -3864,7 +3864,7 @@
             "speed": 40,
             "total": 395
         },
-        "type": [
+        "types": [
             "Normal"
         ],
         "weight": "80.5 lbs (36.5 kg)"
@@ -3892,7 +3892,7 @@
             "speed": 35,
             "total": 355
         },
-        "type": [
+        "types": [
             "Rock",
             "Water"
         ],
@@ -3921,7 +3921,7 @@
             "speed": 55,
             "total": 495
         },
-        "type": [
+        "types": [
             "Rock",
             "Water"
         ],
@@ -3950,7 +3950,7 @@
             "speed": 55,
             "total": 355
         },
-        "type": [
+        "types": [
             "Rock",
             "Water"
         ],
@@ -3979,7 +3979,7 @@
             "speed": 80,
             "total": 495
         },
-        "type": [
+        "types": [
             "Rock",
             "Water"
         ],
@@ -4005,7 +4005,7 @@
             "speed": 130,
             "total": 515
         },
-        "type": [
+        "types": [
             "Rock",
             "Flying"
         ],
@@ -4033,7 +4033,7 @@
             "speed": 30,
             "total": 540
         },
-        "type": [
+        "types": [
             "Normal"
         ],
         "weight": "1014.1 lbs (460.0 kg)"
@@ -4057,7 +4057,7 @@
             "speed": 85,
             "total": 580
         },
-        "type": [
+        "types": [
             "Ice",
             "Flying"
         ],
@@ -4082,7 +4082,7 @@
             "speed": 100,
             "total": 580
         },
-        "type": [
+        "types": [
             "Electric",
             "Flying"
         ],
@@ -4107,7 +4107,7 @@
             "speed": 90,
             "total": 580
         },
-        "type": [
+        "types": [
             "Fire",
             "Flying"
         ],
@@ -4136,7 +4136,7 @@
             "speed": 50,
             "total": 300
         },
-        "type": [
+        "types": [
             "Dragon"
         ],
         "weight": "7.3 lbs (3.3 kg)"
@@ -4164,7 +4164,7 @@
             "speed": 70,
             "total": 420
         },
-        "type": [
+        "types": [
             "Dragon"
         ],
         "weight": "36.4 lbs (16.5 kg)"
@@ -4192,7 +4192,7 @@
             "speed": 80,
             "total": 600
         },
-        "type": [
+        "types": [
             "Dragon",
             "Flying"
         ],
@@ -4217,7 +4217,7 @@
             "speed": 130,
             "total": 680
         },
-        "type": [
+        "types": [
             "Psychic"
         ],
         "weight": "269 lbs (122.0 kg)"
@@ -4240,7 +4240,7 @@
             "speed": 100,
             "total": 600
         },
-        "type": [
+        "types": [
             "Psychic"
         ],
         "weight": "8.8 lbs (4.0 kg)"

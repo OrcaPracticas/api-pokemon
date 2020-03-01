@@ -8,8 +8,8 @@
             "module-resolver",
             {
                 "alias": {
-                    "Api": "./app/src/commons/",
-                    "ApiDB": "./db/src/DataBase.json"
+                    "Pokemon": "./app/src/commons/",
+                    "ApiDB": "./app/db/DataBase.json"
                 }
             }
         ]

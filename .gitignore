@@ -1,5 +1,12 @@
+## Directorios
 node_modules
+build
+
+### sistema
 .vscode
 .DS_Store
+
+## Archivos
 package-*
 *.lock
+yarn*

@@ -14,7 +14,7 @@ import ServerRouters from "Api/Routers";
 
 const ENV = process.env.NODE_ENV || "production";
 const PORT = process.env.PORT || 3000;
-const ROOT_PATH = Path.join(__dirname, "./");
+const ROOT_PATH = Path.join(__dirname, "../");
 const Server = Express();
 
 // ==================== COMNFIGURACIONES ==================== //

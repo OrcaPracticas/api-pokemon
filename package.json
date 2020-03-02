@@ -35,7 +35,7 @@
     "scripts": {
         "dev": "export NODE_ENV=develop; nodemon ./run_server.js",
         "build": "babel ./app/src/ -d ./app/build/",
-        "start": "npm run babel; node ./build/Server.js"
+        "start": "npm run build; node ./app/build/Server.js"
     },
     "version": "1.0.0"
 }

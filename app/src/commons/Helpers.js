@@ -1,3 +1,4 @@
+/* eslint-disable no-restricted-syntax */
 import Colors from "cli-color";
 
 /**
@@ -7,6 +8,42 @@ import Colors from "cli-color";
  * @package    App/Helpers.
  */
 class Helpers {
+    /**
+     * Permite limpiar y formatear una cadena
+     *
+     * @param {string} string Cadena a limpiar.
+     * @param {string} union Cararter con el que sera unida.
+     *
+     * @retur {string}
+     */
+    static formatString(string = "", union = "") {
+        let ascii = 0;
+        let char = "";
+        let newString = "";
+        const STRING = string.toLowerCase();
+        const SPECIAL = {
+            á: "a",
+            é: "e",
+            í: "i",
+            ó: "o",
+            ú: "u",
+            ñ: "n",
+            "♀": "f",
+            "♂": "m",
+        };
+
+        for (let i = 0; i < STRING.length; i += 1) {
+            char = STRING[i];
+            char = (typeof SPECIAL[char] !== "undefined") ? SPECIAL[char] : char;
+            if (typeof char !== "function") {
+                ascii = char.charCodeAt();
+                newString += (ascii === 32 || (ascii >= 48 && ascii <= 57) || (ascii >= 97 && ascii <= 122)) ? char : "";
+            }
+        }
+        newString = newString.split(" ").filter(Boolean);
+        return newString.join(union);
+    }
+
     /**
      * Permite el seteo de las metas de cache.
      *

@@ -6,8 +6,10 @@ import Helmet, { frameguard } from "helmet";
 import Path from "path";
 
 /* eslint-disable */
-import Helpers from "Api/Helpers";
-import ServerRouters from "Api/Routers";
+import Api from "Pokemon/Api";
+import ApiDB from "ApiDB";
+import Helpers from "Pokemon/Helpers";
+import ServerRouters from "Pokemon/Routers";
 /* eslint-enable */
 
 // ======================== CONSTANTES ======================== //
@@ -15,8 +17,8 @@ import ServerRouters from "Api/Routers";
 const ENV = process.env.NODE_ENV || "production";
 const PORT = process.env.PORT || 3000;
 const ROOT_PATH = Path.join(__dirname, "../");
-const Server = Express();
 
+const Server = Express();
 // ==================== COMNFIGURACIONES ==================== //
 
 Server.use(Cors());
@@ -36,7 +38,19 @@ Server.use("/", Statics(`${ROOT_PATH}/public/`, {
 
 // ===================== MANEJO DE RUTAS ====================== //
 
-Server.use(ServerRouters(Router));
+// Utilizando el middeleware para cargar la DB(Json).
+Server.use((request, response, next) => {
+    const { originalUrl, protocol, hostname } = request;
+    const URL = `${protocol}://${hostname}${ENV !== "production" ? `:${PORT}` : ""}`;
+    const { data = {} } = new Api(ApiDB, "images", "", URL);
+    Helpers.msg(`Solicitando ${URL}${originalUrl}`, "i");
+    request.DB = data;
+    request.URL = `${URL}`;
+    next();
+});
+
+// Cargando las rutas que estaran disponibles
+Server.use(ServerRouters(Router, Helpers));
 
 // ====================== INICIALIZACION ====================== //
 
@@ -62,7 +76,7 @@ Server.listen(PORT, (error) => {
                     `${ROOT_PATH}/app/**/*.{js,ico,png}`,
                 ],
                 online: true,
-                open: true,
+                open: false,
                 port: PORT + 1,
                 proxy: `localhost:${PORT}`,
                 ui: false,

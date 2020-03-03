@@ -37,5 +37,5 @@
         "build": "babel ./app/src/ -d ./app/build/",
         "start": "npm run build; node ./app/build/Server.js"
     },
-    "version": "1.0.0"
+    "version": "1.1.0"
 }

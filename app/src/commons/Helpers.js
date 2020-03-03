@@ -80,19 +80,19 @@ class Helpers {
         switch (type) {
         case "e":
             log = Colors.xterm(15).bgXterm(124).bold;
-            msg = "🛑 ERROR   ";
+            msg = " 🚨 ERROR    ";
             break;
         case "s":
             log = Colors.xterm(15).bgXterm(34).bold;
-            msg = "✅ SUCCESS ";
+            msg = " 🙌 SUCCESS  ";
             break;
         case "w":
             log = Colors.xterm(232).bgXterm(214).bold;
-            msg = "⚠️ WARNING ";
+            msg = " ⚠️ WARNING ";
             break;
         default:
             log = Colors.xterm(15).bgXterm(12).bold;
-            msg = "ℹ️ INFO    ";
+            msg = " ℹ INFO    ";
             break;
         }
         for (let i = 0; i < lon; i += 1) { text += " "; }

@@ -27,10 +27,23 @@ const ServerRouter = (router, helpers) => {
 
     // Pagina principal
     Router.use((request, response) => {
-        helpers.getTimeToLive(response, 10800, "API_ALL");
-        helpers.msg("Respuesta recibida", "s");
-        response.status(200);
-        response.json(request.DB);
+        const { originalUrl } = request;
+        let status = 404;
+        let type = "e";
+        let tag = "API_ERROR";
+        let data = { success: false, msg: "🚨 Not found 404" };
+
+        if (originalUrl === "/") {
+            status = 200;
+            type = "2";
+            tag = "API_ALL";
+            data = request.DB;
+        }
+
+        helpers.getTimeToLive(response, 10800, tag);
+        helpers.msg("Respuesta recibida", type);
+        response.status(status);
+        response.json(data);
     });
 
     return Router;

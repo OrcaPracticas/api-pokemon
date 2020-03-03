@@ -1,6 +1,7 @@
 ## Directorios
 node_modules
-build
+app/build
+
 
 ### sistema
 .vscode

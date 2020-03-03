@@ -36,15 +36,17 @@ Server.use("/", Statics(`${ROOT_PATH}/public/`, {
     },
 }));
 
+
 // ===================== MANEJO DE RUTAS ====================== //
 
 // Utilizando el middeleware para cargar la DB(Json).
 Server.use((request, response, next) => {
     const { originalUrl, protocol, hostname } = request;
     const URL = `${protocol}://${hostname}${ENV !== "production" ? `:${PORT}` : ""}`;
-    const { data = {} } = new Api(ApiDB, "images", "", URL);
+    const CONFIG = { domain: URL };
+    const API = new Api(CONFIG);
     Helpers.msg(`Solicitando ${URL}${originalUrl}`, "i");
-    request.DB = data;
+    request.db = API.getImages(ApiDB);
     request.URL = `${URL}`;
     next();
 });
@@ -78,7 +80,8 @@ Server.listen(PORT, (error) => {
                 online: true,
                 open: false,
                 port: PORT + 1,
-                proxy: `localhost:${PORT}`,
+                proxy: `local.orca.com:${PORT}`,
+                reloadOnRestart: true,
                 ui: false,
             });
         }

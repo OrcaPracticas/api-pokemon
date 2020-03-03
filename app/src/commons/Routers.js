@@ -7,9 +7,14 @@ const ServerRouter = (router, helpers) => {
     const Router = router();
 
     // Consultando los metodos del Api.
-    Router.use("/api/:method?/:param?", (request, response) => {
-        const { DB, params: { method = "", param = "" }, URL } = request;
-        const { success, data } = new Api(DB, method, param, URL);
+    Router.use("/api/:method?/:params?", (request, response) => {
+        const { db, params: { method = "", params = "" } } = request;
+        const CONFIG = {
+            db,
+            method,
+            params,
+        };
+        const { success, data } = new Api(CONFIG);
         let status = 404;
         let type = "e";
         let msg = data;
@@ -27,7 +32,7 @@ const ServerRouter = (router, helpers) => {
 
     // Pagina principal
     Router.use((request, response) => {
-        const { originalUrl } = request;
+        const { db, originalUrl } = request;
         let status = 404;
         let type = "e";
         let tag = "API_ERROR";
@@ -35,9 +40,9 @@ const ServerRouter = (router, helpers) => {
 
         if (originalUrl === "/") {
             status = 200;
-            type = "2";
+            type = "s";
             tag = "API_ALL";
-            data = request.DB;
+            data = db;
         }
 
         helpers.getTimeToLive(response, 10800, tag);

@@ -34,7 +34,7 @@ class Api {
      *
      * @return  {Array}
      */
-    getImages(db) {
+    getImages(db = []) {
         const { domain } = this;
         const IMAGES = db.map((item = {}) => {
             const { name = "" } = item;
@@ -61,7 +61,7 @@ class Api {
                 REQUEST.success = true;
                 const DATA = (typeof CALLBACK === "function")
                     ? CALLBACK(params) : CALLBACK;
-                REQUEST.data = DATA;
+                REQUEST.data = this.getImages(DATA);
             } catch (Notify) {
                 REQUEST.data = Notify;
             }

@@ -61,7 +61,7 @@ class Api {
                 REQUEST.success = true;
                 const DATA = (typeof CALLBACK === "function")
                     ? CALLBACK(params) : CALLBACK;
-                REQUEST.data = this.getImages(DATA);
+                REQUEST.data = DATA;
             } catch (Notify) {
                 REQUEST.data = Notify;
             }

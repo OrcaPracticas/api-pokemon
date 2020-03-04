@@ -17,6 +17,7 @@
         "babel-jest": "25.1.0",
         "babel-plugin-inline-json-import": "0.3.2",
         "babel-plugin-module-resolver": "4.0.0",
+        "babel-preset-minify": "0.5.1",
         "chai": "4.2.0",
         "chai-http": "4.3.0",
         "jest": "25.1.0",
@@ -38,8 +39,8 @@
         "url": "git@GitHub:OrcaPracticas/api-pokemon.git"
     },
     "scripts": {
-        "dev": "export NODE_ENV=develop; nodemon ./run_server.js",
         "build": "babel ./app/src/ -d ./app/build/",
+        "dev": "export NODE_ENV=develop; nodemon ./run_server.js",
         "start": "npm run build; node ./app/build/Server.js",
         "test:app": "mocha",
         "test:coverage": "nyc --reporter=html mocha"

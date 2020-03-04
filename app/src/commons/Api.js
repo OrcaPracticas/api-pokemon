@@ -13,25 +13,35 @@ class Api {
      * Metodo principal
      *
      * @param {Object} data Listado de los pokemons.
+     * @param {String} domain (Optional) Url de la api.
      * @param {String} method (Optional) Nombre del metodo.
      * @param {String} params (Optional) Parametro del metodo a consultar.
-     * @param {String} url (Optional) Url de la api.
      *
      * @return  {Object}
      */
-    constructor(data, method = "", params = "", url = "") {
-        this.db = data;
+    constructor({ db = [], domain = "", method = "", params = "" }) {
+        this.db = db;
+        this.domain = domain;
         this.method = method;
         this.params = params;
-        this.url = url;
-        return this.action;
+        return (method) ? this.action : this;
     }
 
-    get images() {
-        const { db, url } = this;
-        const IMAGES = db.map((item) => {
-            const NAME = Helpers.formatString(item.name);
-            item.img = `${url}/pokemons/${NAME}.jpg`;
+    /**
+     * Permite conseguir las imagenes
+     *
+     * @param {Array} db Listado de pokemons.
+     *
+     * @return  {Array}
+     */
+    getImages(db = []) {
+        const { domain } = this;
+        const IMAGES = db.map((item = {}) => {
+            const { name = "" } = item;
+            if (name) {
+                const NAME = Helpers.formatString(name);
+                item.img = `${domain}/pokemons/${NAME}.jpg`;
+            }
             return item;
         });
         return IMAGES;
@@ -43,7 +53,7 @@ class Api {
      * @return  {Object}
      */
     get action() {
-        const { method, params, url } = this;
+        const { method, params } = this;
         const CALLBACK = this[method] || null;
         const REQUEST = { success: false, data: { msg: `🚨 => El metodo [ ${method} ] no existe` } };
         if (CALLBACK) {
@@ -51,11 +61,7 @@ class Api {
                 REQUEST.success = true;
                 const DATA = (typeof CALLBACK === "function")
                     ? CALLBACK(params) : CALLBACK;
-                REQUEST.data = DATA.map((item) => {
-                    const NAME = Helpers.formatString(item.name);
-                    item.img = `${url}/pokemons/${NAME}.jpg`;
-                    return item;
-                })
+                REQUEST.data = this.getImages(DATA);
             } catch (Notify) {
                 REQUEST.data = Notify;
             }

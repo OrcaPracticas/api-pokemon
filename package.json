@@ -44,7 +44,7 @@
         "build": "babel ./app/src/ -d ./app/build/",
         "start": "npm run build; node ./app/build/Server.js",
         "test": "mocha",
-        "test:coverage": "nyc -check-coverage --lines 98  --reporter=html mocha"
+        "test:coverage": "nyc --reporter=html mocha"
     },
     "version": "1.2.0"
 }

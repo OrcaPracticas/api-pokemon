@@ -43,7 +43,7 @@
         "dev": "export NODE_ENV=develop; nodemon ./run_server.js",
         "build": "babel ./app/src/ -d ./app/build/",
         "start": "npm run build; node ./app/build/Server.js",
-        "test": "mocha",
+        "test:app": "mocha",
         "test:coverage": "nyc --reporter=html mocha"
     },
     "version": "1.2.0"

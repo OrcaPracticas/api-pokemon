@@ -1,4 +1,3 @@
-import BrowserSync from "browser-sync";
 import Compression from "compression";
 import Cors from "cors";
 import Express, { Router, static as Statics } from "express";
@@ -71,20 +70,6 @@ Server.listen(PORT, (error) => {
         console.log(error); // eslint-disable-line
         process.exit(1);
     } else {
-        if (ENV === "develop") {
-            Helpers.msg("🔄 BrowserSync Activado", "w");
-            BrowserSync({
-                files: [
-                    `${ROOT_PATH}/app/**/*.{js,ico,png}`,
-                ],
-                online: true,
-                open: false,
-                port: PORT + 1,
-                proxy: `local.orca.com:${PORT}`,
-                reloadOnRestart: true,
-                ui: false,
-            });
-        }
         Helpers.msg(`🚀 Servidor listo  en el puerto ${PORT}`, "s");
     }
 });

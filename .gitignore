@@ -1,7 +1,8 @@
 ## Directorios
 node_modules
 app/build
-
+coverage
+.nyc*
 
 ### sistema
 .vscode

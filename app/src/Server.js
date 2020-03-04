@@ -88,3 +88,5 @@ Server.listen(PORT, (error) => {
         Helpers.msg(`🚀 Servidor listo  en el puerto ${PORT}`, "s");
     }
 });
+
+export default Server;

@@ -1,0 +1,13 @@
+{
+    "verbose": true,
+    "ignore": [
+        "node_modules",
+        "./public"
+    ],
+    "watch": [
+        "./app/",
+        "./app/commons/",
+        "./db"
+    ],
+    "ext": "js json"
+}

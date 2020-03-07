@@ -1,0 +1,14 @@
+## Directorios
+node_modules
+app/build
+coverage
+.nyc*
+
+### sistema
+.vscode
+.DS_Store
+
+## Archivos
+package-*
+*.lock
+yarn*

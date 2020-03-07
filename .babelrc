@@ -1,0 +1,18 @@
+{
+    "presets": [
+        "@babel/preset-env",
+        "minify"
+    ],
+    "plugins": [
+        "inline-json-import",
+        [
+            "module-resolver",
+            {
+                "alias": {
+                    "Pokemon": "./app/src/commons/",
+                    "ApiDB": "./app/db/DataBase.json"
+                }
+            }
+        ]
+    ]
+}

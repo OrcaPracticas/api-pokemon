@@ -36,7 +36,6 @@ Server.use("/", Statics(`${ROOT_PATH}/public/`, {
     },
 }));
 
-
 // ===================== MANEJO DE RUTAS ====================== //
 
 // Utilizando el middeleware para cargar la DB(Json).

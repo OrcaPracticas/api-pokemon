@@ -72,7 +72,7 @@ class Api {
     /**
      * Permite conseguir un pokemon por coincidencias en  el nombre y por nombre conpleto.
      *
-     * @return  {[type]}  [return description]
+     * @return {Array}
      */
     get name() {
         const { db, params } = this;
@@ -88,7 +88,7 @@ class Api {
     /**
      * Consigue de manera aleatorio los datos de un pokemon.
      *
-     * @return  {Object}
+     * @return {Object}
      */
     get random() {
         const { db } = this;

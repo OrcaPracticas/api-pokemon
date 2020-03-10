@@ -42,7 +42,7 @@ Server.use("/", Statics(`${ROOT_PATH}/public/`, {
 Server.use((request, response, next) => {
     const { originalUrl, protocol, hostname } = request;
     const URL = `${protocol}://${hostname}${ENV !== "production" ? `:${APP_PORT}` : ""}`;
-    const CONFIG = { domain: URL };
+    const CONFIG = { domain: process.env.DOMAIN || URL };
     const API = new Api(CONFIG);
     Helpers.msg(`Solicitando ${URL}${originalUrl}`, "i");
     request.db = API.getImages(ApiDB);

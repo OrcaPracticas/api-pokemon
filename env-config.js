@@ -1,4 +1,4 @@
-const USER = process.env.ADMIM || "pokemon";
+const USER = process.env.ADMIN || "pokemon";
 const PASS = process.env.PASS || "p0k3m0n.";
 const DB = process.env.DB || "api";
 

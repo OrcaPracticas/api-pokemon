@@ -15,6 +15,8 @@ Para poder iniciar el proyecto se necesita contar con las siguientes instalacion
 
 - **[Yarn](https://classic.yarnpkg.com/en/docs/install#debian-stable) :** Es un tipo de instalador de paquetes JavaScript y gestor de dependencias lanzado por _Facebook_.
 
+- **[MongoDB](https://account.mongodb.com/account/login) :** Este es un servicii en la nube que nos permite utilizar MongoDB puedes crear una cuenta si quieres probar su poder, en todo caso la practica cuenta ya con una conexión.
+
 > **🔖 Nota :** Se recomiendo descargar las versiones **LTS** (Long-Term Support).
 
 ## ⚙️ Instalación
@@ -101,25 +103,25 @@ Este es utilizado cuando el desarrollo esta listo para salir a la luz prácticam
     npm start
 ```
 
-> **🔖 Nota :** Podrás ver el api en la ruta **<http://localhost:3000>** esta listara los primeros 150 pokémons.
+> **🔖 Nota :** Podrás ver el api en la ruta **<http://localhost:3000>** o **<http://localhost:3000/db>** esta listara los primeros 150 pokémons.
 
 ### 🚶🏻‍♂️Paso 5
 
 Al tener el servidor arriba podremos realizar pruebas de todo lo que nos ofrece el `Api`,
 
-- **⚙️random :** Facilita la data de un pokémon de manera aleatoria, por ejemplo. **<http://localhost:3000/api/random>**, al correr este comando podrás ver algo como esto (existe un nodo llamado `img` el cual te muestra una imagen referente al pokémon).
+- **⚙️random :** Facilita la data de un pokémon de manera aleatoria, por ejemplo. **<http://localhost:3000/api/random>** o **<http://localhost:3000/db/random>**, al correr este comando podrás ver algo como esto (existe un nodo llamado `img` el cual te muestra una imagen referente al pokémon).
 
     ![FIG 1: Método random](./readme/random.png)
 
-- **⚙️type :** Realiza el filtro de los pokémon por tipo. **<http://localhost:3000/api/type/ghost>**, al correr este comando podrás ver algo como esto.
+- **⚙️type :** Realiza el filtro de los pokémon por tipo. **<http://localhost:3000/api/type/ghost>** o **<http://localhost:3000/db/type/ghost>**, al correr este comando podrás ver algo como esto.
 
 ![FIG 2: Método type](./readme/type.png)
 
-- **⚙️name :** Permite buscar pokémons por nombre completo o por incidencias. **<http://localhost:3000/api/name/char>**, al correr este comando podrás ver algo como esto.
+- **⚙️name :** Permite buscar pokémons por nombre completo o por incidencias. **<http://localhost:3000/api/name/char>** o **<http://localhost:3000/db/name/char>**, al correr este comando podrás ver algo como esto.
 
 ![FIG 3: Método name](./readme/name.png)
 
-> **🔖 Nota :** Cada método a consultar tiene que seguir la estructura `/api/[método]/[parámetro]`.
+> **🔖 Nota :** Cada método a consultar tiene que seguir la estructura `/api/[método]/[parámetro]` o `/db/[método]/[parámetro]`.
 
 ## 📦 Deployment
 
@@ -128,6 +130,7 @@ Es importante mencionar que el proyecto cuenta con `tag's` que facilita el movim
 - **[⚙️Configuración y Seteo inicial](https://github.com/OrcaPracticas/api-pokemon/tree/V1.0.0)**
 - **[✅Integracion de api terminada](https://github.com/OrcaPracticas/api-pokemon/tree/V1.1.0)**
 - **[🧪Integración de test](https://github.com/OrcaPracticas/api-pokemon/tree/v1.2.0)**
+- **[🛰Conexión con MongoDB](https://github.com/OrcaPracticas/api-pokemon/tree/v1.4.0)**
 
 Cada una de las faces correspondientes al desarrollo, con su **Release** el cual tiene relación con un **Pull-Request** el cual su vez tiene relación con un **Milestone** el cual tienen relación con **Issues** y estos tienen relacionados los **commits**.
 
@@ -139,8 +142,8 @@ Para el desarrollo del presente proyecto se utilzan las siguientes dependnecias
 [![compression](https://img.shields.io/badge/dependencies-v.1.7.4.compression-blue.svg?style=flat-square&logo=appveyor)](https://www.npmjs.com/package/compression)
 [![cors](https://img.shields.io/badge/dependencies-v.2.8.5.cors-blue.svg?style=flat-square&logo=appveyor)](https://www.npmjs.com/package/cors)
 [![express](https://img.shields.io/badge/dependencies-v.4.17.1.express-blue.svg?style=flat-square&logo=appveyor)](https://www.npmjs.com/package/express)
-[![helmet](https://img.shields.io/badge/dependencies-v.3.21..helmet-blue.svg?style=flat-square&logo=appveyor)](https://www.npmjs.com/package/helmet)
-
+[![helmet](https://img.shields.io/badge/dependencies-v.3.21.helmet-blue.svg?style=flat-square&logo=appveyor)](https://www.npmjs.com/package/helmet)
+[![mongoose](https://img.shields.io/badge/dependencies-v.2.0.2.mongoose-blue?style=flat-square&logo=appveyor)](https://www.npmjs.com/package/mongoose)
 
 [![@babel/cli](https://img.shields.io/badge/devdependencies-v.7.8.4.@babel/cli-f5da55.svg?style=flat-square&logo=appveyor)](https://www.npmjs.com/package/@babel/cli)
 [![@babel/core](https://img.shields.io/badge/devdependencies-v.7.8.6.@babel/core-f5da55.svg?style=flat-square&logo=appveyor)](https://www.npmjs.com/package/@babel/core)

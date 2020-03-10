@@ -1,12 +1,13 @@
 /* eslint-disable */
 import Api from "Pokemon/Api";
+import MongoApi from "Pokemon/MongoApi";
 /* eslint-enable */
 
 
 const ServerRouter = (router, helpers) => {
     const Router = router();
 
-    // Consultando los metodos del Api.
+    // Consultando los metodos del Api(JSON).
     Router.use("/api/:method?/:params?", (request, response) => {
         const { db, params: { method = "", params = "" } } = request;
         const CONFIG = {
@@ -29,6 +30,16 @@ const ServerRouter = (router, helpers) => {
         response.status(status);
         response.send(data);
     });
+
+    // Consultando los metodos del Api(MongoDB)
+    Router.use("/db/:method?/:args?", (request, response) => {
+        const { params: { args = {}, method = "find" }, URL } = request;
+        helpers.getTimeToLive(response, 10800, `DB_${method}`);
+        helpers.msg(`Lanzando el metodo ${method}`, "i");
+        const API = new MongoApi({ args, domain: URL, method, response });
+        API.find({});
+    });
+
 
     // Pagina principal
     Router.use((request, response) => {

@@ -3,7 +3,6 @@ const env = require("./env-config");
 module.exports = {
     presets: [
         "@babel/preset-env",
-        "minify"
     ],
     plugins: [
         "inline-json-import",

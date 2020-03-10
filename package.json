@@ -39,7 +39,7 @@
     },
     "scripts": {
         "build": "babel ./app/src/ -d ./app/build/",
-        "dev": "export NODE_ENV=develop; nodemon ./run_server.js",
+        "dev": "export NODE_ENV=develop; export PORT=8080; nodemon ./run_server.js",
         "start": "npm run build; node ./app/build/Server.js",
         "test:app": "mocha",
         "test:coverage": "nyc --reporter=html mocha"

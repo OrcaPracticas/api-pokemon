@@ -2,6 +2,7 @@ import Compression from "compression";
 import Cors from "cors";
 import Express, { Router, static as Statics } from "express";
 import Helmet, { frameguard } from "helmet";
+import Mongoose from "mongoose";
 import Path from "path";
 
 /* eslint-disable */
@@ -56,22 +57,38 @@ Server.use(ServerRouters(Router, Helpers));
 // ====================== INICIALIZACION ====================== //
 
 /**
- * Inicializacion del servidor.
- *
- * @param {Number} PORT Puerto por el que estara escuhcando el server.
- * @param {Function} Callback Permite identificar el estado del proceso.
- *
- * return void.
+ * Conexión a mongoDB Atlas.
  */
-Server.listen(APP_PORT, (error) => {
-    Helpers.msg("Iniciando el Servidor", "i");
-    if (error) {
-        Helpers.msg("Problemas al inicar el servidor", "e");
-        console.log(error); // eslint-disable-line
-        process.exit(1);
-    } else {
-        Helpers.msg(`🚀 Servidor listo  en el puerto ${APP_PORT}`, "s");
-    }
-});
+Mongoose.connect(
+    process.env.MONGO,
+    process.env.CONFIG,
+    (mongoError) => {
+        if (mongoError) {
+            Helpers.msg("Problemas de coneccion con MONGO", "e");
+            console.log(mongoError); // eslint-disable-line
+            process.exit(1);
+        }
+
+        /**
+         * Inicializacion del servidor.
+         *
+         * @param {Number} PORT Puerto por el que estara escuhcando el server.
+         * @param {Function} Callback Permite identificar el estado del proceso.
+         *
+         * return void.
+         */
+        Server.listen(APP_PORT, (error) => {
+            Helpers.msg("Iniciando el Servidor", "i");
+            Helpers.msg("🛰  Conexión establecida con Mongodb", "s");
+            if (error) {
+                Helpers.msg("Problemas al inicar el servidor", "e");
+                console.log(error); // eslint-disable-line
+                process.exit(1);
+            } else {
+                Helpers.msg(`🚀 Servidor listo  en el puerto ${APP_PORT}`, "s");
+            }
+        });
+    },
+);
 
 export default Server;

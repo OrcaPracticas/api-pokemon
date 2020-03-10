@@ -14,7 +14,7 @@ import ServerRouters from "Pokemon/Routers";
 // ======================== CONSTANTES ======================== //
 
 const ENV = process.env.NODE_ENV || "production";
-const PORT = process.env.PORT || 3000;
+const { PORT } = process.env;
 const ROOT_PATH = Path.join(__dirname, "../");
 
 const Server = Express();
@@ -42,7 +42,7 @@ Server.use("/", Statics(`${ROOT_PATH}/public/`, {
 Server.use((request, response, next) => {
     const { originalUrl, protocol, hostname } = request;
     const URL = `${protocol}://${hostname}${ENV !== "production" ? `:${PORT}` : ""}`;
-    const CONFIG = { domain: URL };
+    const CONFIG = { domain: process.env.MONGO };
     const API = new Api(CONFIG);
     Helpers.msg(`Solicitando ${URL}${originalUrl}`, "i");
     request.db = API.getImages(ApiDB);

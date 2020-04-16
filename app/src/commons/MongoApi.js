@@ -3,10 +3,11 @@ import PokemonModel from "Pokemon/Schema";
 /* eslint-enable */
 
 class MongoApi {
-    constructor({ args, domain, method, params, response }) {
+    constructor({ args, domain, method, response, msg }) {
         this.domain = domain;
         this.method = method;
         this.params = args;
+        this.msg = msg;
         this.response = response;
         return (method !== "find") ? this.action : this;
     }
@@ -24,8 +25,7 @@ class MongoApi {
             try {
                 if (typeof CALLBACK === "function") {
                     CALLBACK(params);
-                }
-                else CALLBACK;
+                } else { CALLBACK; }
             } catch (Notify) {
                 REQUEST.data = Notify;
             }
@@ -100,7 +100,11 @@ class MongoApi {
         const STATUS = error ? 404 : 200;
         const SEND = error || data;
         const ACTION = (typeof SEND === "object") ? "json" : "send";
-
+        if (STATUS === 200) {
+            this.msg("OK !", "s");
+        } else {
+            this.msg(SEND, "e");
+        }
         response.status(STATUS);
         response[ACTION](SEND);
     }

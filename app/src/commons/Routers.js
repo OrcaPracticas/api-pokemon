@@ -36,8 +36,14 @@ const ServerRouter = (router, helpers) => {
         const { params: { args = {}, method = "find" }, URL } = request;
         helpers.getTimeToLive(response, 10800, `DB_${method}`);
         helpers.msg(`Lanzando el metodo ${method}`, "i");
-        const API = new MongoApi({ args, domain: URL, method, response });
-        API.find({});
+        const PARAMS = {
+            args,
+            domain: URL,
+            method,
+            response,
+            msg: helpers.msg,
+        };
+        const API = new MongoApi(PARAMS);
     });
 
 

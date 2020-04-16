@@ -1,27 +1,27 @@
 {
     "author": "Jorge Méndez Ortega <jorge.mendez.ortega@gmail.com>",
     "dependencies": {
-        "cli-color": "2.0.0",
-        "compression": "1.7.4",
-        "cors": "2.8.5",
-        "express": "4.17.1",
-        "helmet": "3.21.3",
-        "mongoose": "5.9.4"
+        "cli-color": "^2.0.0",
+        "compression": "^1.7.4",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "helmet": "^3.22.0",
+        "mongoose": "^5.9.9"
     },
     "description": "Creando una api de lo primeros 150 pokemons, se integrara con heroku",
     "devDependencies": {
-        "@babel/cli": "7.8.4",
-        "@babel/core": "7.8.6",
-        "@babel/preset-env": "7.8.6",
-        "@babel/register": "7.8.6",
-        "babel-plugin-inline-json-import": "0.3.2",
-        "babel-plugin-module-resolver": "4.0.0",
-        "babel-plugin-transform-define": "2.0.0",
-        "chai": "4.2.0",
-        "chai-http": "4.3.0",
-        "mocha": "7.1.0",
-        "nodemon": "2.0.2",
-        "nyc": "15.0.0"
+        "@babel/cli": "^7.8.4",
+        "@babel/core": "^7.9.0",
+        "@babel/preset-env": "^7.9.5",
+        "@babel/register": "^7.9.0",
+        "babel-plugin-inline-json-import": "^0.3.2",
+        "babel-plugin-module-resolver": "^4.0.0",
+        "babel-plugin-transform-define": "^2.0.0",
+        "chai": "^4.2.0",
+        "chai-http": "^4.3.0",
+        "mocha": "^7.1.1",
+        "nodemon": "^2.0.3",
+        "nyc": "^15.0.1"
     },
     "keywords": [
         "expressjs",
@@ -43,5 +43,5 @@
         "test:app": "mocha",
         "test:coverage": "nyc --reporter=html mocha"
     },
-    "version": "1.5.0"
+    "version": "1.5.1"
 }

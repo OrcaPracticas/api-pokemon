@@ -44,7 +44,7 @@ Iniciaremos clonando el presente repositorio para este lo podemos hacer de dos m
 Al terminar de clonar el repositorio nos posicionaremos en el directorio que se genero.
 
 ```bash
-    cd ./pi-pokemon
+    cd ./api-pokemon
 ```
 
 ### 🚶🏻‍♂️Paso 3
@@ -103,25 +103,25 @@ Este es utilizado cuando el desarrollo esta listo para salir a la luz prácticam
     npm start
 ```
 
-> **🔖 Nota :** Podrás ver el api en la ruta **<http://localhost:3000>** o **<http://localhost:3000/db>** esta listara los primeros 150 pokémons.
+> **🔖 Nota :** Podrás ver el api en la ruta **<http://localhost:3000>** o **<http://localhost:3000/api>** esta listara los primeros 150 pokémons.
 
 ### 🚶🏻‍♂️Paso 5
 
 Al tener el servidor arriba podremos realizar pruebas de todo lo que nos ofrece el `Api`,
 
-- **⚙️random :** Facilita la data de un pokémon de manera aleatoria, por ejemplo. **<http://localhost:3000/api/random>** o **<http://localhost:3000/db/random>**, al correr este comando podrás ver algo como esto (existe un nodo llamado `img` el cual te muestra una imagen referente al pokémon).
+- **⚙️random :** Facilita la data de un pokémon de manera aleatoria, por ejemplo. **<http://localhost:3000/random>** o **<http://localhost:3000/api/random>**, al correr este comando podrás ver algo como esto (existe un nodo llamado `img` el cual te muestra una imagen referente al pokémon).
 
     ![FIG 1: Método random](./readme/random.png)
 
-- **⚙️type :** Realiza el filtro de los pokémon por tipo. **<http://localhost:3000/api/type/ghost>** o **<http://localhost:3000/db/type/ghost>**, al correr este comando podrás ver algo como esto.
+- **⚙️type :** Realiza el filtro de los pokémon por tipo. **<http://localhost:3000/type/ghost>** o **<http://localhost:3000/api/type/ghost>**, al correr este comando podrás ver algo como esto.
 
 ![FIG 2: Método type](./readme/type.png)
 
-- **⚙️name :** Permite buscar pokémons por nombre completo o por incidencias. **<http://localhost:3000/api/name/char>** o **<http://localhost:3000/db/name/char>**, al correr este comando podrás ver algo como esto.
+- **⚙️name :** Permite buscar pokémons por nombre completo o por incidencias. **<http://localhost:3000/name/char>** o **<http://localhost:3000/api/name/char>**, al correr este comando podrás ver algo como esto.
 
 ![FIG 3: Método name](./readme/name.png)
 
-> **🔖 Nota :** Cada método a consultar tiene que seguir la estructura `/api/[método]/[parámetro]` o `/db/[método]/[parámetro]`.
+> **🔖 Nota :** Cada método a consultar tiene que seguir la estructura `/[método]/[parámetro]` o `/api/[método]/[parámetro]`.
 
 ## 📦 Deployment
 

@@ -9,7 +9,8 @@ class MongoApi {
         this.params = args;
         this.msg = msg;
         this.response = response;
-        return (method !== "find") ? this.action : this;
+        this.find = this.find.bind(this);
+        return (method !== "") ? this.action : this;
     }
 
     /**
@@ -43,7 +44,7 @@ class MongoApi {
      * @return {void}
      */
     find(query = {}) {
-        const { domain } = this;
+        const { domain = "1" } = this;
         PokemonModel.find(query, (error, data) => {
             let list = data || [];
             let findError = error || null;

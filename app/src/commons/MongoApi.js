@@ -3,12 +3,14 @@ import PokemonModel from "Pokemon/Schema";
 /* eslint-enable */
 
 class MongoApi {
-    constructor({ args, domain, method, params, response }) {
+    constructor({ args, domain, method, response, msg }) {
         this.domain = domain;
         this.method = method;
         this.params = args;
+        this.msg = msg;
         this.response = response;
-        return (method !== "find") ? this.action : this;
+        this.find = this.find.bind(this);
+        return (method !== "") ? this.action : this;
     }
 
     /**
@@ -24,8 +26,7 @@ class MongoApi {
             try {
                 if (typeof CALLBACK === "function") {
                     CALLBACK(params);
-                }
-                else CALLBACK;
+                } else { CALLBACK; }
             } catch (Notify) {
                 REQUEST.data = Notify;
             }
@@ -43,7 +44,7 @@ class MongoApi {
      * @return {void}
      */
     find(query = {}) {
-        const { domain } = this;
+        const { domain = "1" } = this;
         PokemonModel.find(query, (error, data) => {
             let list = data || [];
             let findError = error || null;
@@ -100,7 +101,11 @@ class MongoApi {
         const STATUS = error ? 404 : 200;
         const SEND = error || data;
         const ACTION = (typeof SEND === "object") ? "json" : "send";
-
+        if (STATUS === 200) {
+            this.msg("OK !", "s");
+        } else {
+            this.msg(SEND, "e");
+        }
         response.status(STATUS);
         response[ACTION](SEND);
     }

@@ -70,6 +70,15 @@ class Api {
     }
 
     /**
+     * Pemite listar todos los pokemons.
+     *
+     * @return {Object}/
+     */
+    get find() {
+        return this.db;
+    }
+
+    /**
      * Permite conseguir un pokemon por coincidencias en  el nombre y por nombre conpleto.
      *
      * @return {Array}

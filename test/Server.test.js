@@ -15,11 +15,11 @@ describe("📋 Testeando el servidor", () => {
         it("1 .- Se tienen que listar todos los pokemons", (done) => {
             Chai
                 .request(Server)
-                .get("/")
+                .get("/api")
                 .end((error, response) => {
                     response.should.have.status(200);
                     response.body.should.be.a("Array");
-                    expect(response).to.have.header("Edge-Cache-Tag", "POKEMON_API_ALL");
+                    expect(response).to.have.header("Edge-Cache-Tag", "POKEMON_API_FIND");
                     done();
                 });
         });
@@ -120,7 +120,7 @@ describe("📋 Testeando el servidor", () => {
                     response.should.have.status(404);
                     expect(response).to.be.json;
                     expect(body).to.have.nested.property("success");
-                    expect(response).to.have.header("Edge-Cache-Tag", "POKEMON_API_ERROR");
+                    expect(response).to.have.header("Edge-Cache-Tag", "POKEMON_DB_ERROR");
                     done();
                 });
         });

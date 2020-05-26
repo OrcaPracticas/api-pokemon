@@ -3,11 +3,12 @@ import PokemonModel from "Pokemon/Schema";
 /* eslint-enable */
 
 class MongoApi {
-    constructor({ args, domain, method, response, msg }) {
+    constructor({ args, domain, method, response, helpers }) {
         this.domain = domain;
         this.method = method;
         this.params = args;
-        this.msg = msg;
+        this.msg = helpers.msg;
+        this.getTimeToLive = helpers.getTimeToLive;
         this.response = response;
         this.find = this.find.bind(this);
         return (method !== "") ? this.action : this;
@@ -97,15 +98,18 @@ class MongoApi {
      * @return {Void}.
      */
     sendResult(error, data) {
-        const { response } = this;
+        const { getTimeToLive, method, response } = this;
         const STATUS = error ? 404 : 200;
         const SEND = error || data;
         const ACTION = (typeof SEND === "object") ? "json" : "send";
+        let type = method;
         if (STATUS === 200) {
             this.msg("OK !", "s");
         } else {
+            type = "error";
             this.msg(SEND, "e");
         }
+        getTimeToLive(response, 10800, `DB_${type}`);
         response.status(STATUS);
         response[ACTION](SEND);
     }

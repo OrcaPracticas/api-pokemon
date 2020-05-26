@@ -33,39 +33,20 @@ const ServerRouter = (router, helpers) => {
     // Consultando los metodos del Api(MongoDB)
     Router.use("/:method?/:args?", (request, response) => {
         const { params: { args = {}, method = "find" }, URL } = request;
-        helpers.getTimeToLive(response, 10800, `DB_${method}`);
+        const { msg, getTimeToLive } = helpers;
         helpers.msg(`Lanzando el metodo ${method}`, "i");
         const PARAMS = {
             args,
             domain: URL,
             method,
             response,
-            msg: helpers.msg,
+            helpers: {
+                getTimeToLive,
+                msg,
+            },
         };
         const API = new MongoApi(PARAMS);
     });
-
-    // Pagina principal
-    Router.use((request, response) => {
-        const { db, originalUrl } = request;
-        let status = 404;
-        let type = "e";
-        let tag = "API_ERROR";
-        let data = { success: false, msg: "🚨 Not found 404" };
-
-        if (originalUrl === "/") {
-            status = 200;
-            type = "s";
-            tag = "API_ALL";
-            data = db;
-        }
-
-        helpers.getTimeToLive(response, 10800, tag);
-        helpers.msg("Respuesta recibida", type);
-        response.status(status);
-        response.json(data);
-    });
-
     return Router;
 };
 
